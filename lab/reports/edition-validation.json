@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "added_entries_checked": 464,
+  "baseline_entries": 65045,
+  "dictionary_entries": 65509,
+  "unrelated_morphological_collisions": 0,
+  "source_bindings_checked": 472,
+  "edition_sha256": "d6e39f7e34ce8190692e4b19595a988f9196472a9cedeb3c098208f33f4943cb"
+}

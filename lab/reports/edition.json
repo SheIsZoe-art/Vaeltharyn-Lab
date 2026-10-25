@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "added_dictionary_entries": 464,
+  "dictionary_entries": 65509,
+  "controlled_source_cases": 469,
+  "existing_entries_reused": 15,
+  "excluded_cases": 2,
+  "new_roots": 14,
+  "by_category": {
+    "n": 133,
+    "adv": 143,
+    "adj": 182,
+    "v": 6
+  },
+  "unrelated_collisions_remaining": 0,
+  "human_validated": false,
+  "audio_evaluated": false,
+  "long_term_targets": {
+    "fr_source_records": 159271,
+    "en_source_entries": 135969
+  },
+  "targets_fully_completed": false,
+  "resolved_historical_cases": 12,
+  "historical_proposals_retained": 84,
+  "remaining_active_proposals": 72,
+  "english_headwords_independently_assigned": 23,
+  "english_compositional_definitions": 441,
+  "new_entry_source_bindings": {
+    "morphalou": 452,
+    "oewn": 20
+  }
+}

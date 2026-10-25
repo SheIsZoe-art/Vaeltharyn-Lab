@@ -1,5 +1,7 @@
 # Laboratory reference model — schema 2
 
+Laboratory **0.3.0** adds **464 defined experimental entries** to the baseline below: [dictionary 1.7.0-lab.1](edition-1.7.md). Total searchable entries: **65,509**. `lab/edition/entries.json` records formation, definitions, pronunciation and references. Its `source_bindings` hold links for new entries; the existing central ledger retains links to the stable baseline. Twelve historical proposals now have explicit resolutions in `lab/edition/resolutions.json`; original cases remain intact. The following sections describe the 0.2.0 baseline.
+
 Laboratory 0.2.0 uses one Vaeltharyn baseline: **65,045 entries** and **456 expression records**, corpus 1.6.0 frozen at commit `02ad25ebb16e92a5897a54903e1f6a157c2dcbb9`. Baseline data, rules and installed translator/skill 0.8.0 remain unchanged.
 
 ## Four separate elements

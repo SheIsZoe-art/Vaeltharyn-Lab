@@ -1,0 +1,13 @@
+{
+  "edition": "1.7.0-lab.1",
+  "baseline_edition": "1.6.0",
+  "baseline_entries": 65045,
+  "added_entries": 464,
+  "dictionary_entries": 65509,
+  "baseline_expressions": 456,
+  "entries": "lab/edition/entries.json",
+  "word_forms_are_not_counted_as_entries": true,
+  "new_roots": 14,
+  "validation": "defined experimental lexemes with written source/morphology checks; not human or audio validated",
+  "canonical_baseline_modified": false
+}

@@ -69,6 +69,9 @@ def link_result(db,where,args,limit,include_quarantined=False):
  return {'total':total,'quarantined_count':quarantined,'items':items}
 def entry(identity,limit=8,include_quarantined=False):
  if not 1<=limit<=100:raise ValueError('limit must be between 1 and 100')
+ if identity.startswith('VLX-'):
+  from edition import entry as edition_entry
+  return edition_entry(identity)
  with closing(connect(REPO,manifest(REPO))) as db:
   row=db.execute("SELECT payload FROM records WHERE kind='entry' AND key=?",(identity,)).fetchone()
  if row is None:raise ValueError('Unknown canonical entry ID: '+identity)
@@ -78,10 +81,14 @@ def entry(identity,limit=8,include_quarantined=False):
  return {'schema_version':SCHEMA,'canonical_entry':json.loads(row[0]),'correspondences':links,'proposed_changes':changes,'canonical_data_modified':False}
 def query(lang,terms,include_proposals=False,include_sources=False,limit=8,include_alignments=False,include_quarantined=False):
  if not 1<=limit<=100:raise ValueError('limit must be between 1 and 100')
+ from edition import query as edition_query
  result={'schema_version':SCHEMA,'baseline':lookup(REPO,lang,terms,limit),'proposal_mode':include_proposals,'proposals':{},'documented_contexts':{},'source_candidates':{},'correspondences':{},'warning':'Form/POS candidates and written context checks do not establish validated semantic equivalence.'}
  if include_proposals:
+  resolved={r['case_id']:r for r in read(LAB/'edition/resolutions.json')}
   for term in terms:
    found=[r for r in proposals() if r['forms'].get(lang) and norm(term)==norm(r['forms'][lang])]
+   for item in found:
+    if item['id'] in resolved:item['edition_resolution']=resolved[item['id']]
    result['proposals'][term]={'total':len(found),'items':found[:limit]}
  if include_alignments:
   for term in terms:
@@ -102,13 +109,18 @@ def query(lang,terms,include_proposals=False,include_sources=False,limit=8,inclu
     for raw, in db.execute('SELECT payload FROM items WHERE lang=? AND term=? ORDER BY id LIMIT ?',(lang,norm(term),limit)):
      record=json.loads(raw);source_ids=[record['id']]+[s['id'] for s in record.get('senses',[])]
      record['correspondences']=link_result(db,'source_id IN ('+','.join('?' for _ in source_ids)+')',source_ids,limit,include_quarantined)
+     from edition import source_links
+     edition_links=source_links(source_ids)
+     record['experimental_dictionary_links']={'total':len(edition_links),'items':edition_links[:limit],'scope':'Only the specified definition is represented, not all senses of the source entry.'}
      if lang=='en':record['sense_details']={s['synset']:json.loads(db.execute('SELECT payload FROM synsets WHERE id=?',(s['synset'],)).fetchone()[0]) for s in record['senses']}
      records.append(record)
     result['source_candidates'][term]={'total':total,'items':records}
+ result['lab_dictionary']=edition_query(lang,terms,limit)
  return result
 def export():
- target=LAB/'dist';target.mkdir(exist_ok=True);output=target/'vaeltharyn-lab-0.2.0-review.zip'
+ target=LAB/'dist';target.mkdir(exist_ok=True);output=target/'vaeltharyn-lab-0.3.0-review.zip'
  names=['baseline.json','config.json','proposals/batch-001.json','mappings/assessments.json','data/alignments.jsonl.gz','reports/coverage.json','reports/review-checks.json','reports/data-integrity.json','reports/migration.json','sources/lock.json','sources/consultation.json','LICENSES.md']
+ names+=['edition/entries.json','edition/manifest.json','edition/excluded.json','edition/reused-routes.json','edition/resolutions.json','reports/edition.json','reports/edition-validation.json','sources/french-definitions-lock.json']
  paths=[LAB/name for name in names]+list((LAB/'sources/licenses').glob('*'))+list((LAB/'docs').rglob('*.md'))
  with zipfile.ZipFile(output,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
   for path in sorted(paths):
@@ -118,7 +130,7 @@ def export():
   info=zipfile.ZipInfo('PROJECT-LICENSE.md',date_time=(2026,10,25,0,0,0));info.external_attr=0o100644<<16
   archive.writestr(info,(REPO/'LICENSE.md').read_bytes(),compress_type=zipfile.ZIP_DEFLATED,compresslevel=9)
  sha=hashlib.sha256(output.read_bytes()).hexdigest();output.with_suffix('.zip.sha256').write_text(sha+'  '+output.name+'\n',encoding='utf-8')
- return {'schema_version':SCHEMA,'archive':str(output),'bytes':output.stat().st_size,'sha256':sha,'contains':'central correspondence ledger, 46 context assessments, 84 change proposals, source licenses and guides; baseline and raw inventories distributed separately'}
+ return {'schema_version':SCHEMA,'archive':str(output),'bytes':output.stat().st_size,'sha256':sha,'contains':'464 defined experimental entries, 12 historical-case resolutions, central correspondence ledger, historical proposals, source licenses and guides; baseline and raw inventories distributed separately'}
 def main():
  parser=argparse.ArgumentParser(description=__doc__);subs=parser.add_subparsers(dest='command',required=True)
  for command in ('fetch','report','export'):subs.add_parser(command)
@@ -127,7 +139,7 @@ def main():
  args=parser.parse_args()
  try:
   if args.command=='fetch':out=fetch()
-  elif args.command=='report':out={'coverage':read(LAB/'reports/coverage.json'),'review':read(LAB/'reports/review-checks.json')}
+  elif args.command=='report':out={'coverage':read(LAB/'reports/coverage.json'),'review':read(LAB/'reports/review-checks.json'),'experimental_dictionary':read(LAB/'reports/edition.json')}
   elif args.command=='export':out=export()
   elif args.command=='entry':out=entry(args.identity,args.limit,args.include_quarantined)
   else:out=query(args.lang,args.terms,args.proposals,args.source_candidates,args.limit,args.alignments,args.include_quarantined)

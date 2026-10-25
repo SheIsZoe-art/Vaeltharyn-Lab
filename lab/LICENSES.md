@@ -1,5 +1,7 @@
 # Licenses and source attribution / Licences et attributions
 
+Experimental edition 1.7.0-lab.1 includes selected French Wiktionary definitions and adapted definitions under **CC-BY-SA 4.0**, attributed to **French Wiktionary contributors**, extracted with Wiktextract by **Tatu Ylonen / Kaikki**. Each derived entry retains the original article URL in `source_references`; the pinned extraction URL, dump date and SHA-256 are in [french-definitions-lock.json](sources/french-definitions-lock.json). Source dump: 2026-10-01. These selected definitions and adaptations remain under [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Attribution and share-alike terms must accompany redistribution. Original formations and editorial definitions are by SheIsZoe under the project terms. The full multi-language dump is not redistributed in the review ZIP.
+
 The baseline Vaeltharyn corpus and original laboratory material retain the terms in [the project license](../LICENSE.md), with creator attribution to **SheIsZoe**. Individual source terms remain applicable. Source datasets are separate resources, not relicensed as a single Vaeltharyn dictionary.
 
 | Files | Resource and attribution | Terms |

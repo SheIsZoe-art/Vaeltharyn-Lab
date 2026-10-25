@@ -1,5 +1,7 @@
 # Référentiel du laboratoire — schéma 2
 
+Depuis le laboratoire **0.3.0**, le socle ci-dessous est complété par **464 entrées expérimentales définies** : [dictionnaire 1.7.0-lab.1](edition-1.7.md). Total consultable : **65 509 entrées**. Elles sont dans `lab/edition/entries.json`, avec formation, définitions, prononciation et références. Leurs `source_bindings` enregistrent les liens propres aux nouvelles entrées ; la table centrale existante conserve les liens vers la base stable. Douze propositions historiques ont une résolution explicite dans `lab/edition/resolutions.json` ; leurs fiches d’origine sont conservées. Les sections suivantes décrivent le socle de la version 0.2.0.
+
 Le laboratoire 0.2.0 utilise une seule base Vaeltharyn : les **65 045 entrées** et **456 fiches d’expressions** du corpus stable 1.6.0, figé au commit `02ad25ebb16e92a5897a54903e1f6a157c2dcbb9`. Les sources, règles et installations du plugin/skill 0.8.0 restent inchangées.
 
 ## Quatre éléments distincts

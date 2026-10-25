@@ -1,0 +1,8 @@
+{
+  "url": "https://kaikki.org/frwiktionary/raw-wiktextract-data.jsonl.gz",
+  "dump_date": "2026-10-01",
+  "bytes": 736596796,
+  "sha256": "3400def4f463dbbdea4b7093c0a7c3da80f7578b596f5d4d5b30aeed06a46bf9",
+  "source_attribution": "French Wiktionary contributors, extracted with Wiktextract by Tatu Ylonen / Kaikki",
+  "license": "CC-BY-SA-4.0; retain per-entry source links"
+}

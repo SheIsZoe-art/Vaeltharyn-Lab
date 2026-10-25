@@ -2,9 +2,11 @@
   "status": "pass",
   "schema_version": 2,
   "baseline_tests": 11,
-  "laboratory_tests": 15,
-  "links_checked": 86,
+  "laboratory_tests": 22,
+  "links_checked": 21,
   "broken_links": [],
   "stable_data_modified": false,
-  "proposal_promotion": false
+  "proposal_promotion": false,
+  "experimental_edition": "1.7.0-lab.1",
+  "added_entries": 464
 }

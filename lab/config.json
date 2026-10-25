@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "laboratory_version": "0.2.0",
+  "laboratory_version": "0.3.0",
   "canonical_manifest": "corpus.json",
   "baseline": "lab/baseline.json",
   "source_inventories": [
@@ -18,5 +18,7 @@
     "uncertain": "Equivalence is not established; a contextual match may exist.",
     "rejected": "The proposed equivalence is explicitly rejected."
   },
-  "automatic_promotion": false
+  "automatic_promotion": false,
+  "experimental_dictionary": "lab/edition/manifest.json",
+  "case_resolutions": "lab/edition/resolutions.json"
 }
