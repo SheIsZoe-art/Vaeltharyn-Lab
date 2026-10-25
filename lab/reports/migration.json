@@ -1,0 +1,11 @@
+{
+  "from_schema": 1,
+  "to_schema": 2,
+  "source_cases": 130,
+  "preserved_context_assessments": 46,
+  "pending_change_proposals": 84,
+  "preserved_case_ids_sha256": "dd9712b861116b774bf02681610884f62c4728b2997f34127e354b93d630eeb8",
+  "case_forms_notes_and_references_preserved": true,
+  "canonical_data_modified": false,
+  "source_lexical_fields_preserved": true
+}

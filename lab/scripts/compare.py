@@ -4,7 +4,8 @@ import csv,gzip,hashlib,io,json,re,sys,collections,zipfile,xml.etree.ElementTree
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT.parent))
 from vaeltharyn.search import norm,rows
 LAB=ROOT;REPO=ROOT.parent
-POS={'n':'n','v':'v','adj':'a','adv':'r','a':'a','s':'a','r':'r'}
+POS={'n':'n','v':'v','adj':'a','adv':'r','a':'a','s':'a','r':'r','num':'num','part':'part'}
+MORPH_POS={'Nom commun':'n','Adjectif qualificatif':'a','Adverbe':'r','Verbe':'v','Préposition':'prep','Pronom':'pron','Déterminant':'det','Conjonction':'conj','Nombre':'num','Interjection':'interj','':'unknown'}
 def dump(path,records):
  with path.open('wb') as raw,gzip.GzipFile(filename='',mode='wb',fileobj=raw,mtime=0,compresslevel=9) as gz:
   with io.TextIOWrapper(gz,encoding='utf-8',newline='\n') as out:
@@ -42,9 +43,9 @@ def main():
      identity='morphalou-'+row[1]
      if identity in seen:continue
      seen.add(identity);category=row[2];category_counts[category]+=1
-     pos={'Nom commun':'n','Adjectif qualificatif':'a','Adverbe':'r','Verbe':'v'}.get(category,'other')
+     pos=MORPH_POS.get(category,'unknown')
      matches=sorted(index.get(('fr',norm(row[0]),pos),[]));match+=bool(matches)
-     morph.append({'id':identity,'lang':'fr','lemma':row[0],'pos':pos,'source_category':category,'subcategory':row[3],'locution':row[4],'gender':row[5],'linked_lemmas':row[6],'source_ipa':row[7],'origins':row[8],'existing_ids':matches,'classification':'sense_review' if matches else 'unresolved','classification_verified':False,'sense_definition':None,'license':'LGPL-LR'})
+     morph.append({'id':identity,'lang':'fr','lemma':row[0],'pos':pos,'source_category':category,'subcategory':row[3],'locution':row[4],'gender':row[5],'linked_lemmas':row[6],'source_ipa':row[7],'origins':row[8],'sense_definition':None,'license':'LGPL-LR'})
  dump(LAB/'data/morphalou-lemmas.jsonl.gz',morph)
  stats['fr']={'source_lemma_records':len(morph),'unique_normalized_lemmas':len({norm(r['lemma']) for r in morph}),'unique_source_form_ids':len(form_ids),'lemma_pos_matches_requiring_sense_review':match,'unresolved_records':len(morph)-match,'source_categories':dict(category_counts),'automatic_new_vaeltharyn_words':0}
  del morph,form_ids
@@ -57,7 +58,7 @@ def main():
     for sense in element.findall('Sense'):
      links=[dict(r.attrib) for r in sense.findall('SenseRelation')]
      senses.append({'id':sense.get('id'),'synset':sense.get('synset'),'relations':links});relation_total+=len(links)
-    entries.append({'id':element.get('id'),'lang':'en','lemma':word,'pos':pos,'forms':[f.attrib for f in element.findall('Form')],'senses':senses,'existing_ids':matches,'classification':'sense_review' if matches else 'unresolved','classification_verified':False,'license':'CC-BY-4.0; WordNet notice'})
+    entries.append({'id':element.get('id'),'lang':'en','lemma':word,'pos':pos,'forms':[f.attrib for f in element.findall('Form')],'senses':senses,'license':'CC-BY-4.0; WordNet notice'})
     counts[pos]+=1;sense_total+=len(senses);matched_entries+=bool(matches);matched_senses+=len(senses) if matches else 0;element.clear()
    elif element.tag=='Synset':
     definitions=[d.text or '' for d in element.findall('Definition')];examples=[e.text or '' for e in element.findall('Example')]
@@ -65,9 +66,6 @@ def main():
     synsets.append({'id':element.get('id'),'pos':element.get('partOfSpeech'),'ili':element.get('ili'),'lexfile':element.get('lexfile'),'definitions':definitions,'examples':examples,'relations':relations,'license':'CC-BY-4.0; WordNet notice'});element.clear()
  dump(LAB/'data/oewn-entries.jsonl.gz',entries);dump(LAB/'data/oewn-synsets.jsonl.gz',synsets)
  stats['en']={'edition':'2025 core','source_lexical_entries':len(entries),'unique_normalized_lemmas':len({norm(r['lemma']) for r in entries}),'source_senses':sense_total,'source_synsets':len(synsets),'source_relations':relation_total,'lemma_pos_matches_requiring_sense_review':matched_entries,'sense_candidates_on_matched_entries':matched_senses,'unresolved_entries':len(entries)-matched_entries,'categories':dict(counts),'automatic_new_vaeltharyn_words':0}
- report={'baseline_commit':json.loads((LAB/'baseline.json').read_text())['commit'],'counting':'Source records and normalized strings are distinct. Exact lemma/POS matches are candidates, not verified translations. French source has no definitions; no automatic sense coverage is asserted.','classification_codes':{'sense_review':'Existing form/POS candidate; sense confirmation required.','unresolved':'No exact form/POS match; examine synonyms, constructions and derivation before proposing a root.'},'sources':stats,'canonical_source_modified':False}
- (LAB/'reports/coverage.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
- checks={p.relative_to(REPO).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in (LAB/'data').glob('*.gz')}
- (LAB/'reports/data-integrity.json').write_text(json.dumps(checks,indent=2)+'\n',encoding='utf-8')
- print(json.dumps(report,ensure_ascii=False,indent=2))
+ from reconcile import build
+ build()
 if __name__=='__main__':main()

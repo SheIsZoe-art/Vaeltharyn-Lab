@@ -3,8 +3,10 @@
   "classifications": {
     "sense_review": 7666,
     "productive_construction_candidate": 7143,
-    "already_covered_candidate": 21560
+    "existing_target_candidate": 21560
   },
+  "generated_view": "lab/dist/derivation-review.jsonl.gz",
+  "part_of_change_queue": false,
   "automatic_new_words": 0,
   "human_validated": 0
 }

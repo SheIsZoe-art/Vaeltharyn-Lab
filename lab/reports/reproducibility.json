@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "source_rebuild_identical": true,
+  "canonical_artifacts": {
+    "alignments.jsonl.gz": "78e79ee0dd96b281394cddbf639e9de760b4612e461de8ecd3dcbc5f0e17ddc0",
+    "morphalou-lemmas.jsonl.gz": "872b1a4bd59d464e2697d7ea147cd6799d4a90bbc58ead551c59cc1ad9d0ef7d",
+    "oewn-entries.jsonl.gz": "8721bb14666422d544ea9a698cece331742add4a76cb88a0f6a2815bc5e422b9",
+    "oewn-synsets.jsonl.gz": "a17da3a0f2318fd472fe9bee409190663c2c56b7f01188d087abc1754641f725"
+  }
+}

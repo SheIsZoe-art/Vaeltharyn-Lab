@@ -4,6 +4,7 @@ from contextlib import closing
 import collections,gzip,hashlib,json,re,sys
 LAB=Path(__file__).resolve().parents[1];REPO=LAB.parent;sys.path.insert(0,str(REPO))
 from vaeltharyn.search import rows,norm
+from model import cases,assessments,proposals,RELATIONS
 def load(path):return json.loads(path.read_text(encoding='utf-8'))
 def records(name):
  with gzip.open(LAB/'data'/name,'rt',encoding='utf-8') as stream:
@@ -25,14 +26,15 @@ def main():
   if not name.startswith('data/'):raw=raw.replace(b'\r\n',b'\n')
   assert hashlib.sha256(raw).hexdigest()==expected,name;checked+=1
  lex=list(rows(REPO/'data/lexicon/fr/entries.csv'));words={r['mot']:r for r in lex};ids={r['id'] for r in lex}
- batch=load(LAB/'review/batch-001.json');assert len({r['id'] for r in batch})==len(batch)
+ batch=cases();assert len({r['id'] for r in batch})==len(batch)
  assert all(not r['human_validated'] for r in batch)
  sense_lookup={s['id']:(e,s) for e in records('oewn-entries.jsonl.gz') for s in e['senses']}
  synsets={r['id']:r for r in records('oewn-synsets.jsonl.gz')}
  grammar_tokens=set();prospective={};new_forms={};phonology=[]
  for proposal in batch:
   assert set(proposal['canonical_ids'])<=ids
-  assert proposal['classification'] in ('already_covered','missing_alias','additional_sense','productive_construction','new_word')
+  if 'classification' in proposal:assert proposal['classification'] in ('missing_alias','additional_sense','productive_construction','new_word')
+  else:assert proposal['relation'] in RELATIONS and proposal['scope']=='specified_context_only'
   assert proposal['note_fr'] and proposal['note_en']
   for sense_id in proposal.get('source_sense_ids',[]):
    entry,sense=sense_lookup[sense_id]
@@ -69,8 +71,8 @@ def main():
  # A detected collision must stop packaging; it is not silently approved.
  assert not collisions,{k:sorted(v) for k,v in collisions.items()}
  assert not any(re.search(r'\bmi (?:nu )?vele\b',p['forms'].get('vh') or '',re.I) for p in batch)
- classes=dict(collections.Counter(r['classification'] for r in batch));statuses=dict(collections.Counter(r['status'] for r in batch))
- report={'status':'pass','baseline_files_verified':checked,'baseline_linguistic_data_unchanged':True,'review_records':len(batch),'classifications':classes,'statuses':statuses,'human_validated':0,'new_roots':0,'prospective_derived_forms':len(prospective),'unexpected_morphological_collisions':0,'covered_phrase_tokens':len(grammar_tokens),'source_sense_links_checked':sum(len(p.get('source_sense_ids',[])) for p in batch),'registers':dict(collections.Counter(p['register_source'] for p in batch)),'phonology':phonology,'audio_evaluated':False,'automatic_promotion':False}
+ classes=dict(collections.Counter(r['classification'] for r in proposals()));statuses=dict(collections.Counter(r['status'] for r in proposals()))
+ report={'status':'pass','schema_version':2,'baseline_files_verified':checked,'baseline_linguistic_data_unchanged':True,'documented_context_assessments':len(assessments()),'proposed_changes':len(proposals()),'preserved_cases':len(batch),'classifications':classes,'proposal_statuses':statuses,'human_validated':0,'new_roots':0,'prospective_derived_forms':len(prospective),'unexpected_morphological_collisions':0,'covered_phrase_tokens':len(grammar_tokens),'source_sense_links_checked':sum(len(p.get('source_sense_ids',[])) for p in batch),'registers':dict(collections.Counter(p['register_source'] for p in batch)),'phonology':phonology,'audio_evaluated':False,'automatic_promotion':False}
  (LAB/'reports/review-checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  data={p.relative_to(REPO).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in (LAB/'data').glob('*.gz')}
  (LAB/'reports/data-integrity.json').write_text(json.dumps(data,indent=2)+'\n',encoding='utf-8')

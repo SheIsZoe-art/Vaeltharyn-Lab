@@ -1,47 +1,64 @@
-# Laboratoire lexical Vaeltharyn
+# Référentiel du laboratoire — schéma 2
 
-La base est figée au commit `02ad25ebb16e92a5897a54903e1f6a157c2dcbb9` : corpus 1.6.0, plugin/skill 0.8.0, 65 045 entrées et 456 fiches d’expressions. Les données, règles et outils de la base ne sont pas réécrits. Ce dépôt est une copie de développement indépendante avec historique commun, pas un fork GitHub appartenant au même réseau.
+Le laboratoire 0.2.0 utilise une seule base Vaeltharyn : les **65 045 entrées** et **456 fiches d’expressions** du corpus stable 1.6.0, figé au commit `02ad25ebb16e92a5897a54903e1f6a157c2dcbb9`. Les sources, règles et installations du plugin/skill 0.8.0 restent inchangées.
 
-## Volumes mesurés
+## Quatre éléments distincts
 
-| Ressource | Unités de source | Libellés normalisés distincts | Correspondances libellé + catégorie à examiner |
-|---|---:|---:|---:|
-| Morphalou 3.1, français | 159 271 fiches de lemmes | 144 646 | 51 578 |
-| OEWN 2025, anglais hors Namenet | 135 969 entrées lexicales | 127 300 | 21 184 |
+| Élément | Emplacement | Rôle |
+|---|---|---|
+| Base canonique | chemins du manifeste racine `corpus.json` | mots Vaeltharyn, définitions, identifiants stables |
+| Inventaires externes | `lab/data/morphalou-lemmas.jsonl.gz`, `oewn-entries.jsonl.gz`, `oewn-synsets.jsonl.gz` | données sources et sens externes, sans liens Vaeltharyn recopiés |
+| Correspondances | `lab/data/alignments.jsonl.gz` | table unique des liens source → entrée ou expression canonique, avec portée, statut et preuves |
+| Changements proposés | `lab/proposals/batch-001.json` | 84 changements envisagés, sans éléments déjà documentés comme couverts |
 
-Wordnet contient aussi 185 129 liens mot-sens et 107 519 groupes de sens. Morphalou contient 976 570 identifiants de formes fléchies, qui ne sont pas comptés comme mots Vaeltharyn. Un libellé identique, même avec la même catégorie, ne prouve pas que tous ses sens sont couverts. Ces volumes ne sont donc ni des traductions validées ni des ajouts au dictionnaire.
+Les 46 fiches de contexte existant sont dans `lab/mappings/assessments.json`. Leurs notes qualifient les liens de la table centrale : elles ne créent pas de mots et ne sont pas des changements en attente. Les 130 identifiants de cas d’origine, leurs formulations et leurs réserves sont conservés.
 
-36 369 relations dérivationnelles reliées à des candidats de la base sont disponibles : 7 143 pistes de construction productive, 21 560 relations vers une forme déjà repérée et 7 666 autres analyses de sens. Elles restent à examiner, sans graphie Vaeltharyn générée automatiquement.
+## Sens et statut
 
-## Statuts et décisions
+La relation compare toujours la **source externe** à la **cible Vaeltharyn** :
 
-Le premier lot compte 130 fiches : 46 déjà couvertes dans le contexte retenu, 25 alias manquants, 24 sens supplémentaires à distinguer et 35 constructions productives. Les classes qualifient une décision dans le laboratoire, pas un changement du canon. 98 propositions ont un contrôle écrit de sens/construction, 12 dérivés attendent une revue des synonymes, 20 sens restent sans forme proposée. Aucune validation humaine ou sonore n’est revendiquée.
+- `same_sense` : même sens enregistré ; décision explicite nécessaire.
+- `source_broader` : sens source plus large que la cible.
+- `source_narrower` : sens source plus étroit que la cible.
+- `uncertain` : équivalence non établie, même si un usage contextualisé est documenté.
+- `rejected` : correspondance explicitement rejetée.
 
-Une racine existante est réutilisée avant d’en inventer une autre. Les douze formes dérivées candidates conservent leur base et leur accent, avec `-eth` ou `-is` suivant les règles. Les ambiguïtés de sens, synonymes et variantes de registre restent visibles ; un registre familier anglais ou français ne crée pas à lui seul un registre Vaeltharyn. Les particules expressives déjà documentées peuvent être employées avec leur intensité.
+Le statut précise le travail effectué : `unreviewed`, `written_context_check`, `proposed_change` ou `quarantined_pos`. Tous les liens actuels restent `uncertain` : un contrôle écrit de contexte n’est pas une identité sémantique validée. Les 63 liens en quarantaine ont une catégorie cible trop générale ; ils restent traçables mais sont exclus par défaut des résultats actifs. Une catégorie inconnue n’est jamais traitée comme une catégorie grammaticale commune.
 
-`already_covered` : sens décrit déjà accessible dans la base ; `missing_alias` : accès lexical à ajouter ; `additional_sense` : sens distinct à traiter sans détourner une fiche existante ; `productive_construction` : construction selon les règles ; `new_word` : catégorie réservée à une création justifiée, aucune nouvelle racine dans ce lot. `unresolved_sense` signifie qu’aucune forme n’est proposée.
+## Comptes mesurés
 
-## Consulter sans confondre
+| Ressource / Resource | Fiches source / Source records | Entrées canoniques avec candidat / Canonical entries with candidate |
+|---|---:|---:|
+| Morphalou 3.1 — français / French | 159271 | 51200 |
+| Wordnet 2025 core — anglais / English | 135969 | 30027 |
 
-La recherche ordinaire de la base est inchangée. Les propositions n’apparaissent que dans la section `proposals` avec `--proposals` ; les données externes, seulement avec `--source-candidates`. Les résultats ne sont jamais fusionnés en traductions canoniques. Les formes fléchies ne sont pas automatiquement lemmatisées. Aucun plugin stable n’est remplacé par l’archive du laboratoire.
+Wordnet conserve 185 129 liens mot-sens. La table centrale compte **82 456 liens**, dont **63 en quarantaine**. Les candidats automatiques relient 53 756 identifiants canoniques à au moins une source ; 11 289 restent sans rapprochement automatique. Ces dernières entrées sont conservées et consultables intégralement par identifiant. Ces chiffres mesurent des rapprochements, pas une couverture sémantique validée.
+
+La file de changements contient 25 alias manquants, 24 sens à distinguer et 35 constructions productives. Parmi ces 84 propositions : 52 sont contrôlées à l’écrit, 12 attendent une revue des synonymes et 20 restent sans forme proposée. Les 36 369 pistes dérivationnelles sont une vue générée dans `lab/dist/`, pas des propositions supplémentaires ni un second référentiel.
+
+## Consultation
+
+Les résultats `baseline`, `source_candidates`, `correspondences`, `documented_contexts` et `proposals` restent séparés. `--proposals` ne renvoie que les changements. `--alignments` consulte les liens et les contextes documentés. `entry` donne la fiche canonique complète, même sans correspondance externe. `--include-quarantined` sert à l’audit ; il ne valide aucun lien. Les comptes totaux restent affichés quand la liste est limitée.
 
 ```text
 python lab/scripts/lab.py report
-python lab/scripts/lab.py query --lang en guilt lie whisper --source-candidates
+python lab/scripts/lab.py query --lang en guilt lie --source-candidates
+python lab/scripts/lab.py query --lang en affection --alignments
 python lab/scripts/lab.py query --lang fr "Je pige." --proposals
-python lab/scripts/check.py
-python -m unittest discover -s lab/tests -v
-python -m unittest discover -s tests -v
-python lab/scripts/lab.py export
+python lab/scripts/lab.py entry VX-002edc4764a80a57
+python lab/scripts/lab.py entry VX-002edc4764a80a57 --include-quarantined
 ```
 
-## Reproduire / Reproduce
+## Reproduction / Rebuild
 
 ```text
 python lab/scripts/lab.py fetch
 python lab/scripts/compare.py
 python lab/scripts/families.py
 python lab/scripts/check.py
+python -m unittest discover -s tests -v
+python -m unittest discover -s lab/tests -v
+python lab/scripts/lab.py export
 ```
 
-Les éditions et empreintes sont figées dans [le catalogue des sources](../../sources/lock.json). Les données compressées publiées évitent les téléchargements pour la consultation. Voir [licences](../../LICENSES.md) et [lot bilingue](batch-001.md). Une intégration au canon nécessite une décision de revue explicite et une nouvelle édition ; aucun outil ne promeut automatiquement une proposition.
+[Changements proposés](batch-001.md) · [Contextes documentés](contexts.md) · [Sources et licences](../../LICENSES.md). Le ZIP de revue contient la table centrale et les deux ensembles de cas ; la base stable et les inventaires sources sont distribués séparément. Aucun outil ne promeut automatiquement une proposition.

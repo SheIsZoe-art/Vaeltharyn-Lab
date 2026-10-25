@@ -1,16 +1,18 @@
 {
   "status": "pass",
+  "schema_version": 2,
   "baseline_files_verified": 77,
   "baseline_linguistic_data_unchanged": true,
-  "review_records": 130,
+  "documented_context_assessments": 46,
+  "proposed_changes": 84,
+  "preserved_cases": 130,
   "classifications": {
-    "already_covered": 46,
     "missing_alias": 25,
     "additional_sense": 24,
     "productive_construction": 35
   },
-  "statuses": {
-    "written_checked_proposal": 98,
+  "proposal_statuses": {
+    "written_checked_proposal": 52,
     "proposal_requires_synonym_review": 12,
     "unresolved_sense": 20
   },
@@ -22,8 +24,8 @@
   "source_sense_links_checked": 74,
   "registers": {
     "neutral": 83,
-    "informal": 3,
     "colloquial": 8,
+    "informal": 3,
     "formal": 6,
     "literary": 6,
     "vulgar": 4,

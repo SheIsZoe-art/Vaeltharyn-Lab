@@ -1,0 +1,22 @@
+{
+  "schema_version": 2,
+  "laboratory_version": "0.2.0",
+  "canonical_manifest": "corpus.json",
+  "baseline": "lab/baseline.json",
+  "source_inventories": [
+    "lab/data/morphalou-lemmas.jsonl.gz",
+    "lab/data/oewn-entries.jsonl.gz",
+    "lab/data/oewn-synsets.jsonl.gz"
+  ],
+  "alignments": "lab/data/alignments.jsonl.gz",
+  "context_assessments": "lab/mappings/assessments.json",
+  "proposed_changes": "lab/proposals/batch-001.json",
+  "relations": {
+    "same_sense": "Same recorded sense; requires an explicit assessment.",
+    "source_broader": "External source sense is broader than the canonical target.",
+    "source_narrower": "External source sense is narrower than the canonical target.",
+    "uncertain": "Equivalence is not established; a contextual match may exist.",
+    "rejected": "The proposed equivalence is explicitly rejected."
+  },
+  "automatic_promotion": false
+}

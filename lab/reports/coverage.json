@@ -1,50 +1,56 @@
 {
+  "schema_version": 2,
   "baseline_commit": "02ad25ebb16e92a5897a54903e1f6a157c2dcbb9",
-  "counting": "Source records and normalized strings are distinct. Exact lemma/POS matches are candidates, not verified translations. French source has no definitions; no automatic sense coverage is asserted.",
-  "classification_codes": {
-    "sense_review": "Existing form/POS candidate; sense confirmation required.",
-    "unresolved": "No exact form/POS match; examine synonyms, constructions and derivation before proposing a root."
-  },
+  "canonical_entries": 65045,
   "sources": {
     "fr": {
-      "source_lemma_records": 159271,
-      "unique_normalized_lemmas": 144646,
-      "unique_source_form_ids": 976570,
-      "lemma_pos_matches_requiring_sense_review": 51578,
-      "unresolved_records": 107693,
-      "source_categories": {
-        "Adjectif qualificatif": 36523,
-        "Adverbe": 4157,
-        "Nom commun": 102238,
-        "Préposition": 258,
-        "Pronom": 121,
-        "Déterminant": 57,
-        "Conjonction": 179,
-        "Nombre": 198,
-        "Interjection": 422,
-        "": 356,
-        "Verbe": 14762
-      },
-      "automatic_new_vaeltharyn_words": 0
+      "source_records": 159271,
+      "source_records_with_candidates": 51524,
+      "source_records_without_candidates": 107747,
+      "source_records_with_multiple_candidates": 184,
+      "automatic_candidate_edges": 51725,
+      "distinct_canonical_entries_with_candidates": 51200,
+      "canonical_entries_without_candidates": 13845
     },
     "en": {
-      "edition": "2025 core",
-      "source_lexical_entries": 135969,
-      "unique_normalized_lemmas": 127300,
-      "source_senses": 185129,
-      "source_synsets": 107519,
-      "source_relations": 355064,
-      "lemma_pos_matches_requiring_sense_review": 21184,
-      "sense_candidates_on_matched_entries": 47083,
-      "unresolved_entries": 114785,
-      "categories": {
-        "n": 98220,
-        "r": 4489,
-        "a": 21643,
-        "v": 11617
-      },
-      "automatic_new_vaeltharyn_words": 0
+      "source_records": 135969,
+      "source_records_with_candidates": 21184,
+      "source_records_without_candidates": 114785,
+      "source_records_with_multiple_candidates": 5300,
+      "automatic_candidate_edges": 30593,
+      "distinct_canonical_entries_with_candidates": 30027,
+      "canonical_entries_without_candidates": 35018,
+      "source_senses": 185129
     }
   },
+  "cross_source": {
+    "entries_with_candidates_in_both": 27471,
+    "entries_with_candidates_in_either": 53756,
+    "entries_without_automatic_candidates": 11289
+  },
+  "correspondences": {
+    "total": 82456,
+    "relations": {
+      "uncertain": 82456
+    },
+    "statuses": {
+      "unreviewed": 82318,
+      "quarantined_pos": 63,
+      "written_context_check": 46,
+      "proposed_change": 29
+    },
+    "semantic_equivalence_validated": 0
+  },
+  "review": {
+    "documented_contexts": 46,
+    "proposed_changes": 84,
+    "proposal_classifications": {
+      "missing_alias": 25,
+      "additional_sense": 24,
+      "productive_construction": 35
+    },
+    "preserved_cases": 130
+  },
+  "counting": "Candidate counts are form/POS matches, not semantic coverage. All canonical entries remain in the single frozen baseline, including entries with no external link.",
   "canonical_source_modified": false
 }
