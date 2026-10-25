@@ -77,7 +77,7 @@ def validate():
  report=read(LAB/'reports/edition.json');assert report['targets_fully_completed'] is False
  resolutions=read(LAB/'edition/resolutions.json');old={r['id']:r for r in read(LAB/'proposals/batch-001.json')}
  for r in resolutions:assert r['case_id'] in old and r['edition_entry_id'] in byid
- return {'status':'pass','added_entries_checked':len(additions),'baseline_entries':len(base),'dictionary_entries':len(base)+len(additions),'unrelated_morphological_collisions':0,'source_bindings_checked':sum(len(r['source_bindings']) for r in additions),'edition_sha256':hashlib.sha256((LAB/'edition/entries.json').read_bytes()).hexdigest()}
+ return {'status':'pass','added_entries_checked':len(additions),'baseline_entries':len(base),'dictionary_entries':len(base)+len(additions),'unrelated_morphological_collisions':0,'source_bindings_checked':sum(len(r['source_bindings']) for r in additions),'edition_sha256':hashlib.sha256((LAB/'edition/entries.json').read_bytes().replace(b'\r\n',b'\n')).hexdigest()}
 
 if __name__=='__main__':
  report=validate();(LAB/'reports/edition-validation.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8');print(json.dumps(report,indent=2))

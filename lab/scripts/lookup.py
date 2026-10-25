@@ -125,10 +125,11 @@ def export():
  with zipfile.ZipFile(output,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
   for path in sorted(paths):
    info=zipfile.ZipInfo(path.relative_to(LAB).as_posix(),date_time=(2026,10,25,0,0,0));info.external_attr=0o100644<<16;data=path.read_bytes()
+   if path.suffix in ('.json','.md','.txt') and path.parent!=LAB/'sources/licenses':data=data.replace(b'\r\n',b'\n')
    if path.name=='LICENSES.md':data=data.replace(b'../LICENSE.md',b'PROJECT-LICENSE.md')
    archive.writestr(info,data,compress_type=zipfile.ZIP_DEFLATED,compresslevel=9)
   info=zipfile.ZipInfo('PROJECT-LICENSE.md',date_time=(2026,10,25,0,0,0));info.external_attr=0o100644<<16
-  archive.writestr(info,(REPO/'LICENSE.md').read_bytes(),compress_type=zipfile.ZIP_DEFLATED,compresslevel=9)
+  archive.writestr(info,(REPO/'LICENSE.md').read_bytes().replace(b'\r\n',b'\n'),compress_type=zipfile.ZIP_DEFLATED,compresslevel=9)
  sha=hashlib.sha256(output.read_bytes()).hexdigest();output.with_suffix('.zip.sha256').write_text(sha+'  '+output.name+'\n',encoding='utf-8')
  return {'schema_version':SCHEMA,'archive':str(output),'bytes':output.stat().st_size,'sha256':sha,'contains':'464 defined experimental entries, 12 historical-case resolutions, central correspondence ledger, historical proposals, source licenses and guides; baseline and raw inventories distributed separately'}
 def main():
