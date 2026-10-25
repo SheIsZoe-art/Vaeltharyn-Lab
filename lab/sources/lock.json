@@ -1,0 +1,56 @@
+{
+  "files": [
+    {
+      "file": "morphalou-3.1.zip",
+      "url": "https://huggingface.co/datasets/datasets-CNRS/Morphalou/resolve/2b5dec836bef836a184d157ba3f71755bf55d523/Morphalou3.1_formatCSV.zip",
+      "sha256": "2695bcae64131cb3afe1a36eefb4c1ae9a72fdfffcd14f8a14c26a6618e74966",
+      "bytes": 37768769
+    },
+    {
+      "file": "english-wordnet-2025.xml.gz",
+      "url": "https://en-word.net/static/english-wordnet-2025.xml.gz",
+      "sha256": "9ca6d1dcb75f822fdd66617f7d9da48142ace38dd544d6ad5e2feca1674ad3fe",
+      "bytes": 11363503
+    },
+    {
+      "file": "morphalou-readme.md",
+      "url": "https://huggingface.co/datasets/datasets-CNRS/Morphalou/raw/2b5dec836bef836a184d157ba3f71755bf55d523/README.md",
+      "sha256": "b5e8193c83dda29448fe5a73f0273838a378174b6c71fc7c6ceadadfdc6664d6",
+      "bytes": 2810
+    },
+    {
+      "file": "oewn-license.md",
+      "url": "https://raw.githubusercontent.com/globalwordnet/english-wordnet/dc343f2/LICENSE.md",
+      "sha256": "672cc8b5663e8dc74c4b07a9dcf477193853575b119908fd3dc0aeeb60a9dbbb",
+      "bytes": 19863
+    },
+    {
+      "file": "oewn-princeton-license.txt",
+      "url": "https://raw.githubusercontent.com/globalwordnet/english-wordnet/dc343f2/WNDB_License.txt",
+      "sha256": "df30ec18fbabcdaf031b79ea026d3e6b959010cffe6dd7be9ac137822175b904",
+      "bytes": 1740
+    }
+  ],
+  "resources": {
+    "morphalou": {
+      "version": "3.1",
+      "license": "LGPL-LR",
+      "attribution": "ATILF (CNRS / Université de Lorraine), Morphalou 3.1, ORTOLANG",
+      "url": "https://hdl.handle.net/11403/morphalou/v3.1",
+      "unit": "source lemma record; no definitions"
+    },
+    "oewn": {
+      "version": "2025 core",
+      "license": "CC-BY-4.0; underlying Princeton WordNet notice retained",
+      "attribution": "Open English Wordnet Team; Princeton University WordNet",
+      "url": "https://github.com/globalwordnet/english-wordnet/releases/tag/2025-edition",
+      "unit": "lexical entries, senses and synsets; excludes separate Namenet"
+    },
+    "tlfi": {
+      "use": "consultation_only",
+      "url": "https://www.atilf.fr/ressources/tlfi/",
+      "bulk_copy": false,
+      "reason": "Publisher restricts reuse; no TLFi text copied into this repository."
+    }
+  }
+}

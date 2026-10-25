@@ -11,3 +11,5 @@ Thumbs.db
 dist/
 *.sqlite3
 *.sqlite3-*
+
+lab/dist/

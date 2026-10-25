@@ -1,0 +1,24 @@
+{
+  "tlfi": {
+    "publisher": "https://www.atilf.fr/ressources/tlfi/",
+    "lexical_access": "automated pages not consistently readable; consultation links only",
+    "bulk_copy": false
+  },
+  "sense_checks": [
+    {
+      "term": "culpabilité",
+      "url": "https://www.dictionnaire-academie.fr/article/A9C5276",
+      "use": "Legal status distinguished from subjective feeling; no text copied."
+    },
+    {
+      "term": "appréhension",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/17079996/apprehension",
+      "use": "Anticipatory fear distinguished from mental grasping; no text copied."
+    },
+    {
+      "term": "sentiment de culpabilité",
+      "url": "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26596866/sentiment-de-culpabilite",
+      "use": "Affective state distinguished from guilt established by an offense; no text copied."
+    }
+  ]
+}

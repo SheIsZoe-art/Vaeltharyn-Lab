@@ -1,0 +1,144 @@
+{
+  "status": "pass",
+  "baseline_files_verified": 77,
+  "baseline_linguistic_data_unchanged": true,
+  "review_records": 130,
+  "classifications": {
+    "already_covered": 46,
+    "missing_alias": 25,
+    "additional_sense": 24,
+    "productive_construction": 35
+  },
+  "statuses": {
+    "written_checked_proposal": 98,
+    "proposal_requires_synonym_review": 12,
+    "unresolved_sense": 20
+  },
+  "human_validated": 0,
+  "new_roots": 0,
+  "prospective_derived_forms": 12,
+  "unexpected_morphological_collisions": 0,
+  "covered_phrase_tokens": 123,
+  "source_sense_links_checked": 74,
+  "registers": {
+    "neutral": 83,
+    "informal": 3,
+    "colloquial": 8,
+    "formal": 6,
+    "literary": 6,
+    "vulgar": 4,
+    "contextual": 20
+  },
+  "phonology": [
+    {
+      "form": "voenoeseth",
+      "base": "voenoes",
+      "rule": "adjective + eth",
+      "ipa_annotation": "/ˈvœː.nœːs.ɛθ/",
+      "syllables": 3,
+      "status": "written_morphophonology_only",
+      "audio_evaluated": false
+    },
+    {
+      "form": "traerlutheth",
+      "base": "traerluth",
+      "rule": "adjective + eth",
+      "ipa_annotation": "/ˈtræːr.luθ.ɛθ/",
+      "syllables": 3,
+      "status": "written_morphophonology_only",
+      "audio_evaluated": false
+    },
+    {
+      "form": "benlaeseth",
+      "base": "benlaes",
+      "rule": "adjective + eth",
+      "ipa_annotation": "/ˈbɛn.læːs.ɛθ/",
+      "syllables": 3,
+      "status": "written_morphophonology_only",
+      "audio_evaluated": false
+    },
+    {
+      "form": "loepaveth",
+      "base": "loepav",
+      "rule": "adjective + eth",
+      "ipa_annotation": "/ˈlœː.pav.ɛθ/",
+      "syllables": 3,
+      "status": "written_morphophonology_only",
+      "audio_evaluated": false
+    },
+    {
+      "form": "dhilloreth",
+      "base": "dhillor",
+      "rule": "adjective + eth",
+      "ipa_annotation": "/ˈðil.lɔr.ɛθ/",
+      "syllables": 3,
+      "status": "written_morphophonology_only",
+      "audio_evaluated": false
+    },
+    {
+      "form": "vraldagyleth",
+      "base": "vraldagyl",
+      "rule": "adjective + eth",
+      "ipa_annotation": "/ˈvral.da.gyl.ɛθ/",
+      "syllables": 4,
+      "status": "written_morphophonology_only",
+      "audio_evaluated": false
+    },
+    {
+      "form": "loepavis",
+      "base": "loepav",
+      "rule": "adjective + is",
+      "ipa_annotation": "/ˈlœː.pav.is/",
+      "syllables": 3,
+      "status": "written_morphophonology_only",
+      "audio_evaluated": false
+    },
+    {
+      "form": "benlaesis",
+      "base": "benlaes",
+      "rule": "adjective + is",
+      "ipa_annotation": "/ˈbɛn.læːs.is/",
+      "syllables": 3,
+      "status": "written_morphophonology_only",
+      "audio_evaluated": false
+    },
+    {
+      "form": "dharoenis",
+      "base": "dharoen",
+      "rule": "adjective + is",
+      "ipa_annotation": "/ˈða.rœːn.is/",
+      "syllables": 3,
+      "status": "written_morphophonology_only",
+      "audio_evaluated": false
+    },
+    {
+      "form": "voenoesis",
+      "base": "voenoes",
+      "rule": "adjective + is",
+      "ipa_annotation": "/ˈvœː.nœːs.is/",
+      "syllables": 3,
+      "status": "written_morphophonology_only",
+      "audio_evaluated": false
+    },
+    {
+      "form": "dhoefyvis",
+      "base": "dhoefyv",
+      "rule": "adjective + is",
+      "ipa_annotation": "/ˈðœː.fyv.is/",
+      "syllables": 3,
+      "status": "written_morphophonology_only",
+      "audio_evaluated": false
+    },
+    {
+      "form": "traerluthis",
+      "base": "traerluth",
+      "rule": "adjective + is",
+      "ipa_annotation": "/ˈtræːr.luθ.is/",
+      "syllables": 3,
+      "status": "written_morphophonology_only",
+      "audio_evaluated": false
+    }
+  ],
+  "audio_evaluated": false,
+  "automatic_promotion": false
+}

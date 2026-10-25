@@ -1,0 +1,3860 @@
+[
+  {
+    "id": "LXR-3330c30902f8",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "affection non passionnelle",
+      "en": "affection",
+      "vh": "fusath"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-4f63f62c5340ac33"
+    ],
+    "source_sense_ids": [
+      "oewn-affection__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07560035-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Ne pas déduire une passion romantique.",
+    "note_en": "No romantic passion is implied.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-0124cb91e324",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "étonnement intense",
+      "en": "amazement",
+      "vh": "tuputh"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-17b89923c90134d8"
+    ],
+    "source_sense_ids": [
+      "oewn-amazement__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07524811-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Surprise vive ; pas une stupeur clinique.",
+    "note_en": "Strong surprise, not clinical stupor.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-b6e8c6504426",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "angoisse",
+      "en": "anguish",
+      "vh": "kaethnaev"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-41bf568cc2ac52f3"
+    ],
+    "source_sense_ids": [
+      "oewn-anguish__1.12.02.."
+    ],
+    "source_synsets": [
+      "oewn-07511895-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Détresse affective ; aucun diagnostic automatique.",
+    "note_en": "Emotional distress, not an automatic diagnosis.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-99a0b4d19b63",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "agacement",
+      "en": "annoyance",
+      "vh": "traetos"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-1cc25a4a199f8c1d"
+    ],
+    "source_sense_ids": [
+      "oewn-annoyance__1.26.00.."
+    ],
+    "source_synsets": [
+      "oewn-14429977-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "État affectif ; pas inflammation locale.",
+    "note_en": "Emotional state, not local inflammation.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-233efa03c5d1",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "anxiété ressentie",
+      "en": "anxiety",
+      "vh": "hillaefaek"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-68f671e3e428a572"
+    ],
+    "source_sense_ids": [
+      "oewn-anxiety__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07539144-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Inquiétude ; ne qualifie pas un trouble médical.",
+    "note_en": "Worry, not a claim of a medical disorder.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-0c8c607a24f4",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "orgueil de supériorité",
+      "en": "arrogance",
+      "vh": "taeldhor"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-1f19355c08af78b3"
+    ],
+    "source_sense_ids": [
+      "oewn-arrogance__1.07.00.."
+    ],
+    "source_synsets": [
+      "oewn-04895107-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Opinion de supériorité ; ne remplace pas une fierté légitime.",
+    "note_en": "Sense of superiority, not healthy pride.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-bfe780e47f73",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "honteux, éprouvant de la honte",
+      "en": "ashamed",
+      "vh": "taelfath"
+    },
+    "pos": "a",
+    "canonical_ids": [
+      "VX-91f921664f3fad49"
+    ],
+    "source_sense_ids": [
+      "oewn-ashamed__3.00.00.."
+    ],
+    "source_synsets": [
+      "oewn-00155165-a"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Émotion éprouvée, pas condamnation d’une personne.",
+    "note_en": "Experienced emotion, not condemnation of a person.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-e2c3812bb0a5",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "attachement affectif",
+      "en": "attachment",
+      "vh": "vudyth"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-afb9218150a6bbe7"
+    ],
+    "source_sense_ids": [
+      "oewn-attachment__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07560531-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Pas pièce jointe, accessoire ou saisie judiciaire.",
+    "note_en": "Not an email attachment, accessory or legal writ.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-57ffebada95d",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "attrait affectif",
+      "en": "attraction",
+      "vh": "vrarsoel"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-90b124479b894c59"
+    ],
+    "source_sense_ids": [
+      "oewn-attraction__1.07.00.."
+    ],
+    "source_synsets": [
+      "oewn-04695595-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Charme qui attire ; pas une force physique mesurée.",
+    "note_en": "Appeal, not measured physical force.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-475ace72f56d",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "audace",
+      "en": "audacity",
+      "vh": "graenaer"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-220213b1950f9682"
+    ],
+    "source_sense_ids": [
+      "oewn-audacity__1.07.00.."
+    ],
+    "source_synsets": [
+      "oewn-04866680-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Hardiesse ; insolence non obligatoire.",
+    "note_en": "Daring, not necessarily insolence.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-a08a70c8a307",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "bienveillance",
+      "en": "benevolence",
+      "vh": "kikas"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-09bfe67d978f2833"
+    ],
+    "source_sense_ids": [
+      "oewn-benevolence__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07561087-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Disposition à agir pour le bien d’autrui.",
+    "note_en": "Disposition to act for another’s good.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-62a7d0128979",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "trahison",
+      "en": "betrayal",
+      "vh": "bagyr"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-19c2d352dfe798a1"
+    ],
+    "source_sense_ids": [
+      "oewn-betrayal__1.04.00.."
+    ],
+    "source_synsets": [
+      "oewn-00751065-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Action de trahir ; garder la situation en contexte.",
+    "note_en": "An act of betrayal; retain its context.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-48fd1984f0dc",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "respirer",
+      "en": "breathe",
+      "vh": "dhaemar"
+    },
+    "pos": "v",
+    "canonical_ids": [
+      "VX-1982074a95efbb17"
+    ],
+    "source_sense_ids": [
+      "oewn-breathe__2.29.00.."
+    ],
+    "source_synsets": [
+      "oewn-00001740-v"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Sens respiratoire ; pas un tissu respirant ni une pause par défaut.",
+    "note_en": "Respiration, not automatically breathable fabric or taking a break.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-fa45f15f28f0",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "caresse affectueuse",
+      "en": "caress",
+      "vh": "dakyk"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-d68bd3622dda7f1d"
+    ],
+    "source_sense_ids": [
+      "oewn-caress__1.04.00.."
+    ],
+    "source_synsets": [
+      "oewn-00145598-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Nom de geste ou de témoignage ; pas le verbe.",
+    "note_en": "Noun for an affectionate gesture, not the verb.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-d9b64039c614",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "bavarder sans mesure",
+      "en": "chatter",
+      "vh": "gykykar"
+    },
+    "pos": "v",
+    "canonical_ids": [
+      "VX-8f9fee026b4ea493"
+    ],
+    "source_sense_ids": [
+      "oewn-chatter__2.32.00.."
+    ],
+    "source_synsets": [
+      "oewn-01038676-v"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Parole ; pas dents qui claquent ni bruit mécanique.",
+    "note_en": "Speech, not chattering teeth or machinery.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-859e283ac7b5",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "culotté, insolent",
+      "en": "cheeky",
+      "vh": "loepav"
+    },
+    "pos": "a",
+    "canonical_ids": [
+      "VX-3b769222508f2d8e"
+    ],
+    "source_sense_ids": [
+      "oewn-cheeky__5.00.00.forward.02"
+    ],
+    "source_synsets": [
+      "oewn-00206371-s"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "informal",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Hardiesse proche de l’insolence ; pas une joue.",
+    "note_en": "Boldness bordering on insolence, not a cheek.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-777561588fc2",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "consoler quelqu’un",
+      "en": "comfort",
+      "vh": "brarathar"
+    },
+    "pos": "v",
+    "canonical_ids": [
+      "VX-9fe97147e174aa2d"
+    ],
+    "source_sense_ids": [
+      "oewn-comfort__2.37.01.."
+    ],
+    "source_synsets": [
+      "oewn-01818782-v"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Objet humain ou animé identifiable ; pas un édredon.",
+    "note_en": "An identifiable recipient of consolation, not bedding.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-7525136c847f",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "compassion",
+      "en": "compassion",
+      "vh": "maelnaev"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-ee9e57fb067c6da4"
+    ],
+    "source_sense_ids": [
+      "oewn-compassion__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07569189-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Compassion pour la souffrance ; pas condescendance imposée.",
+    "note_en": "Compassion for suffering, with no required condescension.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-f9fd4ac3122d",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "consentement",
+      "en": "consent",
+      "vh": "thaevlyren"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-ecba023d5f102194"
+    ],
+    "source_sense_ids": [
+      "oewn-consent__1.10.00.."
+    ],
+    "source_synsets": [
+      "oewn-06702412-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Acte et portée à préciser ; silence et désir ne suffisent pas.",
+    "note_en": "Specify the act and scope; silence and desire are insufficient.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-eb310e73f106",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "mépris affectif",
+      "en": "contempt",
+      "vh": "ulmaerun"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-12c9b991edee99c8"
+    ],
+    "source_sense_ids": [
+      "oewn-contempt__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07518219-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Pas outrage à magistrat par défaut.",
+    "note_en": "Not automatically contempt of court.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-27c3b7638dff",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "courage",
+      "en": "courage",
+      "vh": "vaethun"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-4b727e78d07f9ae8"
+    ],
+    "source_sense_ids": [
+      "oewn-courage__1.07.00.."
+    ],
+    "source_synsets": [
+      "oewn-04864314-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Faire face à la difficulté ; aucune absence totale de peur déduite.",
+    "note_en": "Facing difficulty does not prove complete absence of fear.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-ab739a8658f3",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "tromper par artifice",
+      "en": "deceive",
+      "vh": "goerbyvar"
+    },
+    "pos": "v",
+    "canonical_ids": [
+      "VX-f4c674a0b9b4a467"
+    ],
+    "source_sense_ids": [
+      "oewn-deceive__2.32.00.."
+    ],
+    "source_synsets": [
+      "oewn-00856102-v"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Induire quelqu’un en erreur ; pas une erreur involontaire.",
+    "note_en": "Mislead someone, not an accidental mistake.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-a5f4a8ae074a",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "désespoir",
+      "en": "despair",
+      "vh": "vrurlir"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-6c3805a8466dc5c2"
+    ],
+    "source_sense_ids": [
+      "oewn-despair__1.26.00.."
+    ],
+    "source_synsets": [
+      "oewn-14509858-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Perte d’espoir ; aucune qualification clinique.",
+    "note_en": "Loss of hope, with no clinical assessment.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-7283758726be",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "déception affective",
+      "en": "disappointment",
+      "vh": "magyl"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-6603169aef1901ac"
+    ],
+    "source_sense_ids": [
+      "oewn-disappointment__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07555990-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Attentes déçues ; pas tromperie intentionnelle.",
+    "note_en": "Unmet expectations, not intentional deception.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-51c21fb24bbe",
+    "classification": "additional_sense",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "répugnance, dégoût affectif",
+      "en": "disgust",
+      "vh": "fyloth"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-75c4eec2c688bbc8"
+    ],
+    "source_sense_ids": [
+      "oewn-disgust__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07518499-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Aversion ; ne pas utiliser foehoes, manque d’appétit.",
+    "note_en": "Aversion; do not use foehoes, loss of appetite.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-521f9f08af43",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "méfiance",
+      "en": "distrust",
+      "vh": "vrukoth"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-8e6407a8b69ba39c"
+    ],
+    "source_sense_ids": [
+      "oewn-distrust__1.07.00.."
+    ],
+    "source_synsets": [
+      "oewn-04902968-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Disposition à ne pas faire confiance ; pas certitude de culpabilité.",
+    "note_en": "Distrust does not establish guilt.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-3d23dab21cd8",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "doute",
+      "en": "doubt",
+      "vh": "ulvaen"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-bb144a400bc7d77d"
+    ],
+    "source_sense_ids": [
+      "oewn-doubt__1.09.00.."
+    ],
+    "source_synsets": [
+      "oewn-05706212-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Incertitude ; pas démenti certain.",
+    "note_en": "Uncertainty, not certain denial.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-19a1b909163d",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "ivre d’alcool",
+      "en": "drunk",
+      "vh": "brehum"
+    },
+    "pos": "a",
+    "canonical_ids": [
+      "VX-e36a603ca95ae153"
+    ],
+    "source_sense_ids": [
+      "oewn-drunk__3.00.00.."
+    ],
+    "source_synsets": [
+      "oewn-00800854-a"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Intoxication alcoolique dans ce contexte, pas exaltation métaphorique.",
+    "note_en": "Alcohol intoxication here, not metaphorical elation.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-752b866a245a",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "gêné affectivement",
+      "en": "embarrassed",
+      "vh": "traerluth"
+    },
+    "pos": "a",
+    "canonical_ids": [
+      "VX-e219b9dd44adc021"
+    ],
+    "source_sense_ids": [
+      "oewn-embarrassed__5.00.00.discomposed.00"
+    ],
+    "source_synsets": [
+      "oewn-00533833-s"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Honte ou embarras ; pas obstacle mécanique.",
+    "note_en": "Shame or embarrassment, not mechanical obstruction.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-fec3cf940c28",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "étreinte physique",
+      "en": "embrace",
+      "vh": "kraevetol"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-c849c5449176a197"
+    ],
+    "source_sense_ids": [
+      "oewn-embrace__1.04.00.."
+    ],
+    "source_synsets": [
+      "oewn-00418410-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Nom de geste ; pas adoption d’une idéologie.",
+    "note_en": "Physical embrace, not adopting an ideology.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-2489bf9ccf0b",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "empathie",
+      "en": "empathy",
+      "vh": "saelhael"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-f2d4dd0d294f24d0"
+    ],
+    "source_sense_ids": [
+      "oewn-empathy__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07570421-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Compréhension des sentiments ; pas lecture certaine des pensées.",
+    "note_en": "Understanding feelings, not certain mind-reading.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-855e6737b0ac",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "envie des avantages d’autrui",
+      "en": "envy",
+      "vh": "kraepoes"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-980c7058628d1888"
+    ],
+    "source_sense_ids": [
+      "oewn-envy__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07565182-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Ne signifie pas simplement avoir envie de manger.",
+    "note_en": "Not simply wanting to eat.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-4bdc241be406",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "extrêmement fatigué",
+      "en": "exhausted",
+      "vh": "voenoes"
+    },
+    "pos": "a",
+    "canonical_ids": [
+      "VX-af7f5b828664e304"
+    ],
+    "source_sense_ids": [
+      "oewn-exhausted__5.00.00.tired.00"
+    ],
+    "source_synsets": [
+      "oewn-02442263-s"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Personne épuisée ; pas gisement vide.",
+    "note_en": "An exhausted person, not a depleted deposit.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-7c135f9f1ad9",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "fatigue physique ou mentale",
+      "en": "fatigue",
+      "vh": "nythrel"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-dbd6e7f4800c97d6"
+    ],
+    "source_sense_ids": [
+      "oewn-fatigue__1.26.00.."
+    ],
+    "source_synsets": [
+      "oewn-14039832-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "État vécu ; pas fatigue des matériaux par défaut.",
+    "note_en": "Experienced fatigue, not material fatigue by default.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-108eb7670888",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "frustration affective",
+      "en": "frustration",
+      "vh": "thraelvyr"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-92445ee3c0fc8187"
+    ],
+    "source_sense_ids": [
+      "oewn-frustration__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07556254-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Émotion liée à un but contrarié ; pas l’acte d’empêcher lui-même.",
+    "note_en": "Emotion at a thwarted goal, not the act of thwarting itself.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-ba12353710b0",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "furieux de colère",
+      "en": "furious",
+      "vh": "vraldagyl"
+    },
+    "pos": "a",
+    "canonical_ids": [
+      "VX-d2d4eeca0e6f6a4a"
+    ],
+    "source_sense_ids": [
+      "oewn-furious__5.00.00.angry.00"
+    ],
+    "source_synsets": [
+      "oewn-00115265-s"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Colère ; pas vitesse ni violence météorologique par défaut.",
+    "note_en": "Anger, not automatically speed or violent weather.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-5dbc87235dd7",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "gratitude",
+      "en": "gratitude",
+      "vh": "haermael"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-20a849c92fb41ade"
+    ],
+    "source_sense_ids": [
+      "oewn-gratitude__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07519582-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Reconnaissance affective, non identification d’un visage.",
+    "note_en": "Thankfulness, not recognizing a face.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-08fa21dda592",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "piger, comprendre le sens",
+      "en": "grok",
+      "vh": "sendraerar"
+    },
+    "pos": "v",
+    "canonical_ids": [
+      "VX-e822567b9136aeab"
+    ],
+    "source_sense_ids": [
+      "oewn-grok__2.31.00.."
+    ],
+    "source_synsets": [
+      "oewn-00589616-v"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "informal",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Registre source familier ; la cible conserve comprendre, sans faux sens saisir physiquement.",
+    "note_en": "Informal source; target means understand, not physically seize.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-b01d22d594d3",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "culpabilité au titre d’une faute",
+      "en": "guilt",
+      "vh": "tythoem"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-3b3cfb6396c9c181"
+    ],
+    "source_sense_ids": [
+      "oewn-guilt__1.26.00.."
+    ],
+    "source_synsets": [
+      "oewn-14014160-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "État de culpabilité ; pas sentiment subjectif de culpabilité.",
+    "note_en": "State of guilt, not the subjective feeling of guilt.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-ca98a98d2d95",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "hésitation dans la décision ou l’action",
+      "en": "hesitation",
+      "vh": "trukoem"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-226d25984d6b4411"
+    ],
+    "source_sense_ids": [
+      "oewn-hesitation__1.09.00.."
+    ],
+    "source_synsets": [
+      "oewn-05707399-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Pas défaut d’élocution ni refus définitif.",
+    "note_en": "Not a speech defect or a final refusal.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-66563a9fc50d",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "espoir ressenti",
+      "en": "hope",
+      "vh": "thrael"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-2f86f1e7cd4a9624"
+    ],
+    "source_sense_ids": [
+      "oewn-hope__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07556441-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Sentiment ; pas personne sur qui l’on fonde ses espoirs.",
+    "note_en": "Feeling, not a person who embodies one’s hopes.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-b2b947919ef3",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "impatience devant l’attente",
+      "en": "impatience",
+      "vh": "ulvaelthir"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-f922e3439473a444"
+    ],
+    "source_sense_ids": [
+      "oewn-impatience__1.26.00.."
+    ],
+    "source_synsets": [
+      "oewn-14430687-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Manque de patience ; ne prouve pas une hostilité.",
+    "note_en": "Lack of patience does not establish hostility.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-4bbea29075bb",
+    "classification": "additional_sense",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "irritation affective, agacement",
+      "en": "irritation",
+      "vh": "traetos"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-1cc25a4a199f8c1d"
+    ],
+    "source_sense_ids": [
+      "oewn-irritation__1.26.00.."
+    ],
+    "source_synsets": [
+      "oewn-14429977-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Ne pas reprendre threnoek, réservé à l’inflammation.",
+    "note_en": "Do not use threnoek, whose recorded sense is inflammation.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-ba3b50e52212",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "jalousie affective",
+      "en": "jealousy",
+      "vh": "maelkaeth"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-07ab433a24a65a79"
+    ],
+    "source_sense_ids": [
+      "oewn-jealousy__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07565545-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Rivalité affective dans ce contexte ; pas surveillance zélée.",
+    "note_en": "Emotional rivalry here, not zealous vigilance.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-6275c4f7c8e3",
+    "classification": "additional_sense",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "crevé de fatigue",
+      "en": "knackered",
+      "vh": "voenoes"
+    },
+    "pos": "a",
+    "canonical_ids": [
+      "VX-af7f5b828664e304"
+    ],
+    "source_sense_ids": [
+      "oewn-knackered__5.00.00.tired.00"
+    ],
+    "source_synsets": [
+      "oewn-02442934-s"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "informal",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Épuisement familier ; pas mort littérale.",
+    "note_en": "Informal exhaustion, not literal death.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-67fb74bf58e2",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "mensonge",
+      "en": "lie",
+      "vh": "ulthaev"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-fe9719a75eec772b"
+    ],
+    "source_sense_ids": [
+      "oewn-lie__1.10.00.."
+    ],
+    "source_synsets": [
+      "oewn-06769542-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Nom de propos faux ; pas position couchée.",
+    "note_en": "Noun for an untruth, not a reclining position.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-f0e474b2f625",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "murmurer à voix indistincte",
+      "en": "murmur",
+      "vh": "frabidoenar"
+    },
+    "pos": "v",
+    "canonical_ids": [
+      "VX-d584682e420c629e"
+    ],
+    "source_sense_ids": [
+      "oewn-murmur__2.32.00.."
+    ],
+    "source_synsets": [
+      "oewn-01045986-v"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Production de voix basse et indistincte ; pas plainte automatique.",
+    "note_en": "Low indistinct speech, not automatically a complaint.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-adf114b70b52",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "nostalgie du passé",
+      "en": "nostalgia",
+      "vh": "vaelnael"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-5d42a43954f3fe68"
+    ],
+    "source_sense_ids": [
+      "oewn-nostalgia__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07502515-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Ne signifie pas tout désir ni volonté de revenir.",
+    "note_en": "Not every desire or a wish to return.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-cbd8ae45be96",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "haleter",
+      "en": "pant",
+      "vh": "rothirar"
+    },
+    "pos": "v",
+    "canonical_ids": [
+      "VX-ae45e44b5e3dd02b"
+    ],
+    "source_sense_ids": [
+      "oewn-pant__2.29.00.."
+    ],
+    "source_synsets": [
+      "oewn-00005526-v"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Respiration forte et fréquente ; pas vêtement anglais pants.",
+    "note_en": "Forceful frequent breathing, not clothing.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-13ec91778191",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "patience dans l’attente",
+      "en": "patience",
+      "vh": "vaelthir"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-d43db904227cf2db"
+    ],
+    "source_sense_ids": [
+      "oewn-patience__1.07.00.."
+    ],
+    "source_synsets": [
+      "oewn-04647895-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Qualité ; pas jeu de cartes.",
+    "note_en": "Quality, not solitaire.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-8c0eb7d3ae5e",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "fierté personnelle",
+      "en": "pride",
+      "vh": "thaevmael"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-d457b751dfefb5f5"
+    ],
+    "source_sense_ids": [
+      "oewn-pride__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07523725-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Estime de soi ; ne pas imposer l’orgueil de supériorité.",
+    "note_en": "Self-respect, not required superiority.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-944b3e405184",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "rage de colère",
+      "en": "rage",
+      "vh": "brenvan"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-4c49d83cc9d7a02c"
+    ],
+    "source_sense_ids": [
+      "oewn-rage__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07532236-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Colère intense ; pas maladie infectieuse ni mode passagère.",
+    "note_en": "Intense anger, not rabies or a passing craze.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-41922d6c6b3f",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "soulagement affectif",
+      "en": "relief",
+      "vh": "saelraev"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-76e4eb3c984e76f0"
+    ],
+    "source_sense_ids": [
+      "oewn-relief__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07508420-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Émotion ; pas sculpture, secours ou relève d’équipe.",
+    "note_en": "Emotion, not sculpture, aid or a replacement shift.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-5b3281681fa3",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "remords après une mauvaise action",
+      "en": "remorse",
+      "vh": "nyrgel"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-c2e129a9a03acaaa"
+    ],
+    "source_sense_ids": [
+      "oewn-remorse__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07551462-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Regret moral ; ne remplace pas tout regret ou deuil.",
+    "note_en": "Moral regret, not every regret or bereavement.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-7895c3194f4b",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "rancœur",
+      "en": "resentment",
+      "vh": "skaehoen"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-5610ab6bb1cdc05f"
+    ],
+    "source_sense_ids": [
+      "oewn-resentment__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07564444-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Aigreur affective ; pas saveur amère.",
+    "note_en": "Emotional bitterness, not bitter taste.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-9981f1dbf28d",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "réticent à parler",
+      "en": "reticent",
+      "vh": "skimfaes"
+    },
+    "pos": "a",
+    "canonical_ids": [
+      "VX-8ea6f76f98b5ea2e"
+    ],
+    "source_sense_ids": [
+      "oewn-reticent__5.00.00.taciturn.00"
+    ],
+    "source_synsets": [
+      "oewn-02392277-s"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Réserve de parole ; pas toute réticence à une action.",
+    "note_en": "Reticence to speak, not all reluctance to act.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-1259e000307e",
+    "classification": "additional_sense",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "calme intérieur",
+      "en": "serenity",
+      "vh": "saerveth"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-015f4a890a473640"
+    ],
+    "source_sense_ids": [
+      "oewn-serenity__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07531029-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Lecture émotionnelle de l’état calme ; pas état du ciel haeloem.",
+    "note_en": "Emotional calm, not the state of the sky haeloem.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-32172e85292d",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "honte ressentie",
+      "en": "shame",
+      "vh": "saelvyr"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-2ebfdca023224020"
+    ],
+    "source_sense_ids": [
+      "oewn-shame__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07521808-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Émotion ; pas simplement dommage ou événement regrettable.",
+    "note_en": "Emotion, not simply an unfortunate event.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-330763e24a24",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "pousser un cri",
+      "en": "shout",
+      "vh": "troelnakar"
+    },
+    "pos": "v",
+    "canonical_ids": [
+      "VX-1a2caebc0d556554"
+    ],
+    "source_sense_ids": [
+      "oewn-shout__2.32.01.."
+    ],
+    "source_synsets": [
+      "oewn-00915018-v"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Émission d’un cri ; pas nécessairement injurier quelqu’un.",
+    "note_en": "Uttering a cry, not necessarily abusing someone.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-ae99717c9440",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "timide",
+      "en": "shy",
+      "vh": "benlaes"
+    },
+    "pos": "a",
+    "canonical_ids": [
+      "VX-84bd79fed2df2ab0"
+    ],
+    "source_sense_ids": [
+      "oewn-shy__3.00.00.."
+    ],
+    "source_synsets": [
+      "oewn-00340839-a"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Manque d’assurance ; pas shy of au sens de quantité insuffisante.",
+    "note_en": "Lack of confidence, not a shortage in shy of.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-71425ad6516e",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "soupirer",
+      "en": "sigh",
+      "vh": "dovesar"
+    },
+    "pos": "v",
+    "canonical_ids": [
+      "VX-76aa372dae2652e2"
+    ],
+    "source_sense_ids": [
+      "oewn-sigh__2.29.00.."
+    ],
+    "source_synsets": [
+      "oewn-00004032-v"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Verbe intransitif ; ne prouve ni désir ni tristesse.",
+    "note_en": "Intransitive verb; neither desire nor sadness is inferred.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-bb9d868d22b7",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "sincère dans sa parole",
+      "en": "sincere",
+      "vh": "dharoen"
+    },
+    "pos": "a",
+    "canonical_ids": [
+      "VX-450a4e7f51a47a52"
+    ],
+    "source_sense_ids": [
+      "oewn-sincere__3.00.00.."
+    ],
+    "source_synsets": [
+      "oewn-02186899-a"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Véridique ; pas automatiquement intense ou sérieux.",
+    "note_en": "Truthful, not automatically intense or serious.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-188008b7bfb0",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "sincérité",
+      "en": "sincerity",
+      "vh": "maegik"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-4fb5492ff62b09ff"
+    ],
+    "source_sense_ids": [
+      "oewn-sincerity__1.07.00.."
+    ],
+    "source_synsets": [
+      "oewn-04874361-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Qualité de véracité ; pas seulement naturel ou simplicité.",
+    "note_en": "Truthfulness, not merely naturalness or simplicity.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-572c87511d86",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "sourire",
+      "en": "smile",
+      "vh": "naemlar"
+    },
+    "pos": "v",
+    "canonical_ids": [
+      "VX-0c0e1359c969bd65"
+    ],
+    "source_sense_ids": [
+      "oewn-smile__2.29.00.."
+    ],
+    "source_synsets": [
+      "oewn-00028558-v"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Expression du visage ; pas preuve d’accord.",
+    "note_en": "Facial expression, not evidence of agreement.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-866c6adbf544",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "sangloter",
+      "en": "sob",
+      "vh": "byrhukar"
+    },
+    "pos": "v",
+    "canonical_ids": [
+      "VX-51855b64bde00b05"
+    ],
+    "source_sense_ids": [
+      "oewn-sob__2.29.00.."
+    ],
+    "source_synsets": [
+      "oewn-00066900-v"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Pleurs entrecoupés de sanglots ; pas insulte SOB.",
+    "note_en": "Convulsive weeping, not the insult SOB.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-01b5b8492f32",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "fait d’être seul",
+      "en": "solitude",
+      "vh": "naethir"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-f87e82855ca33b5a"
+    ],
+    "source_sense_ids": [
+      "oewn-solitude__1.26.01.."
+    ],
+    "source_synsets": [
+      "oewn-14438384-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "État de solitude ; la souffrance n’est pas obligatoire.",
+    "note_en": "Being alone, not necessarily suffering loneliness.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-c398a327bed9",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "tendresse affective",
+      "en": "tenderness",
+      "vh": "grufav"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-f2faa254cbb3728e"
+    ],
+    "source_sense_ids": [
+      "oewn-tenderness__1.07.00.."
+    ],
+    "source_synsets": [
+      "oewn-04634598-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Affection ; pas douleur d’une zone au toucher ni tendreté d’une viande.",
+    "note_en": "Affection, not bodily tenderness or tender meat.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-4870e04106c5",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "confiance en une personne ou un projet",
+      "en": "trust",
+      "vh": "dhael"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-363bbab9dfcb73a8"
+    ],
+    "source_sense_ids": [
+      "oewn-trust__1.09.01.."
+    ],
+    "source_synsets": [
+      "oewn-05951915-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Confiance ; pas fiducie ni cartel économique.",
+    "note_en": "Confidence, not a legal trust or cartel.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-2f7350f6c2f3",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "conformité à la réalité",
+      "en": "truth",
+      "vh": "thaev"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-1b2ef5bd487d50bc"
+    ],
+    "source_sense_ids": [
+      "oewn-truth__1.26.00.."
+    ],
+    "source_synsets": [
+      "oewn-13979774-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Vérité ; ne prouve pas qu’une affirmation particulière est vraie.",
+    "note_en": "Truth does not establish the truth of a particular assertion.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-37803ae445c0",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "susceptible d’être blessé",
+      "en": "vulnerable",
+      "vh": "thrirmam"
+    },
+    "pos": "a",
+    "canonical_ids": [
+      "VX-bc6366fdae441e8d"
+    ],
+    "source_sense_ids": [
+      "oewn-vulnerable__5.00.00.weak.00"
+    ],
+    "source_synsets": [
+      "oewn-02334251-s"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Sens de blessure ; la vulnérabilité psychologique doit être contextualisée.",
+    "note_en": "Susceptibility to injury; psychological vulnerability needs context.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-693b7a13617d",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "fatigue",
+      "en": "weariness",
+      "vh": "nythrel"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-dbd6e7f4800c97d6"
+    ],
+    "source_sense_ids": [
+      "oewn-weariness__1.26.00.."
+    ],
+    "source_synsets": [
+      "oewn-14039832-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Fatigue éprouvée ; pas lassitude morale automatiquement.",
+    "note_en": "Experienced fatigue, not automatically emotional world-weariness.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-60db84ab4a85",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "pleurer",
+      "en": "weep",
+      "vh": "naethar"
+    },
+    "pos": "v",
+    "canonical_ids": [
+      "VX-63e3e68aeb1a4b55"
+    ],
+    "source_sense_ids": [
+      "oewn-weep__2.29.00.."
+    ],
+    "source_synsets": [
+      "oewn-00065962-v"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Émission de larmes ; cause émotionnelle non imposée par la forme.",
+    "note_en": "Shedding tears; the form does not prescribe their emotional cause.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-eff4f64af7fd",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "chuchoter",
+      "en": "whisper",
+      "vh": "rovimar"
+    },
+    "pos": "v",
+    "canonical_ids": [
+      "VX-24ffa34900f0f132"
+    ],
+    "source_sense_ids": [
+      "oewn-whisper__2.32.00.."
+    ],
+    "source_synsets": [
+      "oewn-00917783-v"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Chuchotement vocal ; pas rumeur ni bruissement de feuilles.",
+    "note_en": "Whispered speech, not rumor or rustling leaves.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXR-8b2191e69e7d",
+    "classification": "missing_alias",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "inquiétude éprouvée",
+      "en": "worry",
+      "vh": "noepum"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-94d23bab8437232e"
+    ],
+    "source_sense_ids": [
+      "oewn-worry__1.12.00.."
+    ],
+    "source_synsets": [
+      "oewn-07539481-n"
+    ],
+    "sense_relation": "compatible_context_only",
+    "register_source": "neutral",
+    "register_target": "not_established_by_source_register",
+    "note_fr": "Émotion ; pas objet qui cause l’inquiétude.",
+    "note_en": "Emotion, not its external cause.",
+    "sound_check": "existing canonical form reused; no respelling",
+    "examples": {},
+    "references": [
+      "BASELINE",
+      "OEWN-2025"
+    ]
+  },
+  {
+    "id": "LXP-ca7b4e76ccb7",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Je pige.",
+      "en": "I get it.",
+      "vh": "Mi sendraerem se."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "colloquial",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Compréhension d’un élément connu ; ne pas reprendre fedysar, saisir physiquement.",
+    "note_en": "Understanding an identified referent, not physically grabbing it.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-86550106fec2",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Je me barre.",
+      "en": "I am off.",
+      "vh": "Mi naethalem."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "colloquial",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Départ ; cible sémantique sans invention d’un suffixe argotique.",
+    "note_en": "Departure; no invented slang suffix.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-6b7e306fbb54",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "J’ai la trouille.",
+      "en": "I am scared.",
+      "vh": "Mi dhavem kaeth."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "colloquial",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Peur ; pas épuisette vramfas. Le registre familier source n’établit pas celui de la cible.",
+    "note_en": "Fear, not the net vramfas. Source informality does not establish target register.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-d8bf828bd843",
+    "classification": "already_covered",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Je suis bourré d’alcool.",
+      "en": "I am drunk.",
+      "vh": "Mi velem brehum."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [
+      "idioms:drunk"
+    ],
+    "source_synsets": [],
+    "register_source": "colloquial",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Ivresse ; ne pas détourner kramdurath, plein à craquer.",
+    "note_en": "Intoxication, not kramdurath, packed full.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-2a9ff3d01c76",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Je suis crevé de fatigue.",
+      "en": "I am knackered.",
+      "vh": "Mi velem voenoes."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "colloquial",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Fatigue extrême, sans mort littérale ; pas un gisement vide.",
+    "note_en": "Extreme fatigue, not literal death or an empty deposit.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-65a961ab354a",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "C’est culotté.",
+      "en": "That is cheeky.",
+      "vh": "Se vele loepav."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "colloquial",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Hardiesse insolente ; ni compliment assuré ni insulte forte.",
+    "note_en": "Impudent boldness; neither necessarily a compliment nor severe abuse.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-b5f712aabf13",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Je m’en veux pour ce que j’ai fait.",
+      "en": "I feel remorse for what I did.",
+      "vh": "Mi gedaenem nyrgel."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "colloquial",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Remords moral, non simple tristesse ou culpabilité judiciaire.",
+    "note_en": "Moral remorse, not mere sadness or legal guilt.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-4c515ea33701",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Je veux bouffer.",
+      "en": "I want to eat.",
+      "vh": "Mi vaelem maelvelar."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "colloquial",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Sens alimentaire ; pas tissu qui gonfle vynalar. Familiarité non ajoutée arbitrairement à la cible.",
+    "note_en": "Eating, not billowing fabric vynalar; target informality is not invented.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-6b6b5c1ba44d",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Je souhaiterais que tu m’écoutes.",
+      "en": "I would like you to listen to me.",
+      "vh": "Mi vaelelem dhe ti lises mi."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "formal",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Conditionnel atténué ; deux sujets et complétive dhe.",
+    "note_en": "Mitigated conditional; two subjects require a dhe clause.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-024a0447cd1a",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Je souhaiterais parler avec toi.",
+      "en": "I would like to speak with you.",
+      "vh": "Mi vaelelem lyrar ko ti."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "formal",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Même sujet : modal et infinitif ; ko est l’accompagnement.",
+    "note_en": "Shared subject: modal and infinitive; ko marks accompaniment.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-b9bde4d31919",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Je pourrais attendre.",
+      "en": "I could wait.",
+      "vh": "Mi kelelem vaenar."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "formal",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Capacité conditionnelle, pas permission ni certitude d’attendre.",
+    "note_en": "Conditional ability, not permission or certainty.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-c3bb0df218b8",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Je souhaite que nous parlions avec respect.",
+      "en": "I want us to speak with respect.",
+      "vh": "Mi vaelem dhe min lyrom ko maerun."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "formal",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Respect décrit l’attitude ; aucune obligation d’accord.",
+    "note_en": "Respect describes manner, not a requirement to agree.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-1ed5a923a1ef",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Je promets que je viendrai.",
+      "en": "I promise that I will come.",
+      "vh": "Mi lyloevem dhe mi vivynem."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "formal",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Futur de vynar ; promesse sans serment religieux ajouté.",
+    "note_en": "Future of vynar; promise with no added religious oath.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-b4f570468abf",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Je ne souhaite pas t’induire en erreur.",
+      "en": "I do not want to deceive you.",
+      "vh": "Mi nu vaelem goerbyvar ti."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "formal",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Négation du vouloir ; pas affirmation que toute erreur est impossible.",
+    "note_en": "Negates desire, not the possibility of any error.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-82d9ecbd0d0a",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "une voix dans la mémoire",
+      "en": "a voice in memory",
+      "vh": "thaem e naelath"
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "literary",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Image mentale, non enregistrement sonore ; locatif après e.",
+    "note_en": "Mental image, not an audio recording; locative after e.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-aac2dd6c2f3b",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "un feu dans le silence",
+      "en": "a fire in silence",
+      "vh": "naur e thaemnyrath"
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "literary",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Image poétique ; aucune propriété acoustique nouvelle du feu.",
+    "note_en": "Poetic image, not a new acoustic property of fire.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-d46a9051eff9",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "de la chaleur dans le froid",
+      "en": "warmth in the cold",
+      "vh": "raelun e hyrath"
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "literary",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Cadre froid et chaleur locale ; la métaphore affective demande un contexte.",
+    "note_en": "Cold surroundings with local warmth; emotional metaphor needs context.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-426066580757",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "un espoir mêlé de doute",
+      "en": "hope mixed with doubt",
+      "vh": "thrael ko ulvaen"
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "literary",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Espoir et doute coexistent ; ni foi religieuse ni contradiction forcée.",
+    "note_en": "Hope and doubt coexist; no required religious faith or contradiction.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-aff038c9c729",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "le chant de l’absence",
+      "en": "the song of absence",
+      "vh": "thael palvulen"
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "literary",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Génitif de palvul ; nom de thème, pas cause historique supposée.",
+    "note_en": "Genitive of palvul; thematic phrase, not a claimed history.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-3c0b71fb7906",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Ta voix est un réconfort pour moi.",
+      "en": "Your voice is a comfort to me.",
+      "vh": "En thaem ti-en vele graedoen mi-or."
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "literary",
+    "register_target": "contextual_style_not_a_new_lexical_register",
+    "force": 0,
+    "note_fr": "Bénéficiaire au datif ; effet affectif, pas preuve d’un traitement médical.",
+    "note_en": "Dative beneficiary; emotional effect, not proof of medical treatment.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-03977d7d70db",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Putain, je suis crevé !",
+      "en": "Fuck, I am exhausted!",
+      "vh": "Vrask, mi velem voenoes!"
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "vulgar",
+    "register_target": "expressive_particle_established",
+    "force": 4,
+    "note_fr": "Interjection forte ; aucun acte sexuel ou destinataire insulté.",
+    "note_en": "Strong interjection, not a sexual act or addressed insult.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-464a288e197e",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Merde, je ne pige pas !",
+      "en": "Shit, I do not get it!",
+      "vh": "Grusk, mi nu sendraerem se!"
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "vulgar",
+    "register_target": "expressive_particle_established",
+    "force": 4,
+    "note_fr": "Contrariété face à l’incompréhension ; pas insulte à une personne.",
+    "note_en": "Frustration at not understanding, not an insult to a person.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-1fbaa07350fc",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Putain de doute !",
+      "en": "Fucking doubt!",
+      "vh": "Ulvaen vrask!"
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "vulgar",
+    "register_target": "expressive_particle_established",
+    "force": 4,
+    "note_fr": "Intensif nominal ; intensité à conserver, pas malédiction rituelle.",
+    "note_en": "Nominal intensifier; preserve strength without inventing a ritual curse.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXP-a483c467f921",
+    "classification": "productive_construction",
+    "status": "written_checked_proposal",
+    "human_validated": false,
+    "forms": {
+      "fr": "Foutue fatigue !",
+      "en": "Fucking fatigue!",
+      "vh": "Nythrel vrask!"
+    },
+    "pos": "phrase",
+    "canonical_ids": [],
+    "existing_expression_keys": [],
+    "source_synsets": [],
+    "register_source": "vulgar",
+    "register_target": "expressive_particle_established",
+    "force": 4,
+    "note_fr": "Exaspération envers la fatigue ; pas attaque d’un groupe humain.",
+    "note_en": "Exasperation at fatigue, not an attack on a human group.",
+    "sound_check": "canonical stems and regular morphology; audio not evaluated",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXD-f02e54109dc9",
+    "classification": "productive_construction",
+    "status": "proposal_requires_synonym_review",
+    "human_validated": false,
+    "forms": {
+      "fr": "état d’épuisement extrême",
+      "en": "state of extreme exhaustion",
+      "vh": "voenoeseth"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-af7f5b828664e304"
+    ],
+    "formation": {
+      "base": "voenoes",
+      "suffix": "eth",
+      "rule": "adjective + eth",
+      "base_pos": "a"
+    },
+    "source_synsets": [],
+    "register_source": "neutral",
+    "register_target": "not_established",
+    "note_fr": "Formation régulière ; vérifier les synonymes déjà enregistrés avant toute intégration. Aucune nouvelle racine.",
+    "note_en": "Regular formation; review existing synonyms before integration. No new root.",
+    "sound_check": "canonical base retained; written checks required; no audio validation",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXD-56fb4f538ade",
+    "classification": "productive_construction",
+    "status": "proposal_requires_synonym_review",
+    "human_validated": false,
+    "forms": {
+      "fr": "état d’embarras affectif",
+      "en": "state of emotional embarrassment",
+      "vh": "traerlutheth"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-e219b9dd44adc021"
+    ],
+    "formation": {
+      "base": "traerluth",
+      "suffix": "eth",
+      "rule": "adjective + eth",
+      "base_pos": "a"
+    },
+    "source_synsets": [],
+    "register_source": "neutral",
+    "register_target": "not_established",
+    "note_fr": "Formation régulière ; vérifier les synonymes déjà enregistrés avant toute intégration. Aucune nouvelle racine.",
+    "note_en": "Regular formation; review existing synonyms before integration. No new root.",
+    "sound_check": "canonical base retained; written checks required; no audio validation",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXD-4b84381d3541",
+    "classification": "productive_construction",
+    "status": "proposal_requires_synonym_review",
+    "human_validated": false,
+    "forms": {
+      "fr": "timidité comme manque d’assurance",
+      "en": "shyness as lack of confidence",
+      "vh": "benlaeseth"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-84bd79fed2df2ab0"
+    ],
+    "formation": {
+      "base": "benlaes",
+      "suffix": "eth",
+      "rule": "adjective + eth",
+      "base_pos": "a"
+    },
+    "source_synsets": [],
+    "register_source": "neutral",
+    "register_target": "not_established",
+    "note_fr": "Formation régulière ; vérifier les synonymes déjà enregistrés avant toute intégration. Aucune nouvelle racine.",
+    "note_en": "Regular formation; review existing synonyms before integration. No new root.",
+    "sound_check": "canonical base retained; written checks required; no audio validation",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXD-312fc6b62ed6",
+    "classification": "productive_construction",
+    "status": "proposal_requires_synonym_review",
+    "human_validated": false,
+    "forms": {
+      "fr": "hardiesse insolente",
+      "en": "impudent boldness",
+      "vh": "loepaveth"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-3b769222508f2d8e"
+    ],
+    "formation": {
+      "base": "loepav",
+      "suffix": "eth",
+      "rule": "adjective + eth",
+      "base_pos": "a"
+    },
+    "source_synsets": [],
+    "register_source": "neutral",
+    "register_target": "not_established",
+    "note_fr": "Formation régulière ; vérifier les synonymes déjà enregistrés avant toute intégration. Aucune nouvelle racine.",
+    "note_en": "Regular formation; review existing synonyms before integration. No new root.",
+    "sound_check": "canonical base retained; written checks required; no audio validation",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXD-df09154e814d",
+    "classification": "productive_construction",
+    "status": "proposal_requires_synonym_review",
+    "human_validated": false,
+    "forms": {
+      "fr": "état d’apaisement",
+      "en": "state of being soothed",
+      "vh": "dhilloreth"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-62967e614289323b"
+    ],
+    "formation": {
+      "base": "dhillor",
+      "suffix": "eth",
+      "rule": "adjective + eth",
+      "base_pos": "a"
+    },
+    "source_synsets": [],
+    "register_source": "neutral",
+    "register_target": "not_established",
+    "note_fr": "Formation régulière ; vérifier les synonymes déjà enregistrés avant toute intégration. Aucune nouvelle racine.",
+    "note_en": "Regular formation; review existing synonyms before integration. No new root.",
+    "sound_check": "canonical base retained; written checks required; no audio validation",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXD-5b93fd23cbad",
+    "classification": "productive_construction",
+    "status": "proposal_requires_synonym_review",
+    "human_validated": false,
+    "forms": {
+      "fr": "état de colère furieuse",
+      "en": "state of furious anger",
+      "vh": "vraldagyleth"
+    },
+    "pos": "n",
+    "canonical_ids": [
+      "VX-d2d4eeca0e6f6a4a"
+    ],
+    "formation": {
+      "base": "vraldagyl",
+      "suffix": "eth",
+      "rule": "adjective + eth",
+      "base_pos": "a"
+    },
+    "source_synsets": [],
+    "register_source": "neutral",
+    "register_target": "not_established",
+    "note_fr": "Formation régulière ; vérifier les synonymes déjà enregistrés avant toute intégration. Aucune nouvelle racine.",
+    "note_en": "Regular formation; review existing synonyms before integration. No new root.",
+    "sound_check": "canonical base retained; written checks required; no audio validation",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXD-0def29eccbb4",
+    "classification": "productive_construction",
+    "status": "proposal_requires_synonym_review",
+    "human_validated": false,
+    "forms": {
+      "fr": "avec une hardiesse insolente",
+      "en": "with impudent boldness",
+      "vh": "loepavis"
+    },
+    "pos": "r",
+    "canonical_ids": [
+      "VX-3b769222508f2d8e"
+    ],
+    "formation": {
+      "base": "loepav",
+      "suffix": "is",
+      "rule": "adjective + is",
+      "base_pos": "a"
+    },
+    "source_synsets": [],
+    "register_source": "neutral",
+    "register_target": "not_established",
+    "note_fr": "Formation régulière ; vérifier les synonymes déjà enregistrés avant toute intégration. Aucune nouvelle racine.",
+    "note_en": "Regular formation; review existing synonyms before integration. No new root.",
+    "sound_check": "canonical base retained; written checks required; no audio validation",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXD-6df26d539f9a",
+    "classification": "productive_construction",
+    "status": "proposal_requires_synonym_review",
+    "human_validated": false,
+    "forms": {
+      "fr": "avec timidité",
+      "en": "shyly",
+      "vh": "benlaesis"
+    },
+    "pos": "r",
+    "canonical_ids": [
+      "VX-84bd79fed2df2ab0"
+    ],
+    "formation": {
+      "base": "benlaes",
+      "suffix": "is",
+      "rule": "adjective + is",
+      "base_pos": "a"
+    },
+    "source_synsets": [],
+    "register_source": "neutral",
+    "register_target": "not_established",
+    "note_fr": "Formation régulière ; vérifier les synonymes déjà enregistrés avant toute intégration. Aucune nouvelle racine.",
+    "note_en": "Regular formation; review existing synonyms before integration. No new root.",
+    "sound_check": "canonical base retained; written checks required; no audio validation",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXD-034921b00cd1",
+    "classification": "productive_construction",
+    "status": "proposal_requires_synonym_review",
+    "human_validated": false,
+    "forms": {
+      "fr": "avec sincérité dans la parole",
+      "en": "sincerely in speech",
+      "vh": "dharoenis"
+    },
+    "pos": "r",
+    "canonical_ids": [
+      "VX-450a4e7f51a47a52"
+    ],
+    "formation": {
+      "base": "dharoen",
+      "suffix": "is",
+      "rule": "adjective + is",
+      "base_pos": "a"
+    },
+    "source_synsets": [],
+    "register_source": "neutral",
+    "register_target": "not_established",
+    "note_fr": "Formation régulière ; vérifier les synonymes déjà enregistrés avant toute intégration. Aucune nouvelle racine.",
+    "note_en": "Regular formation; review existing synonyms before integration. No new root.",
+    "sound_check": "canonical base retained; written checks required; no audio validation",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXD-5c1946cd391a",
+    "classification": "productive_construction",
+    "status": "proposal_requires_synonym_review",
+    "human_validated": false,
+    "forms": {
+      "fr": "d’une manière qui manifeste l’épuisement",
+      "en": "in a manner showing exhaustion",
+      "vh": "voenoesis"
+    },
+    "pos": "r",
+    "canonical_ids": [
+      "VX-af7f5b828664e304"
+    ],
+    "formation": {
+      "base": "voenoes",
+      "suffix": "is",
+      "rule": "adjective + is",
+      "base_pos": "a"
+    },
+    "source_synsets": [],
+    "register_source": "neutral",
+    "register_target": "not_established",
+    "note_fr": "Formation régulière ; vérifier les synonymes déjà enregistrés avant toute intégration. Aucune nouvelle racine.",
+    "note_en": "Regular formation; review existing synonyms before integration. No new root.",
+    "sound_check": "canonical base retained; written checks required; no audio validation",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXD-5f6cd7a04047",
+    "classification": "productive_construction",
+    "status": "proposal_requires_synonym_review",
+    "human_validated": false,
+    "forms": {
+      "fr": "avec audace",
+      "en": "boldly",
+      "vh": "dhoefyvis"
+    },
+    "pos": "r",
+    "canonical_ids": [
+      "VX-d2a253b6e0206eb6"
+    ],
+    "formation": {
+      "base": "dhoefyv",
+      "suffix": "is",
+      "rule": "adjective + is",
+      "base_pos": "a"
+    },
+    "source_synsets": [],
+    "register_source": "neutral",
+    "register_target": "not_established",
+    "note_fr": "Formation régulière ; vérifier les synonymes déjà enregistrés avant toute intégration. Aucune nouvelle racine.",
+    "note_en": "Regular formation; review existing synonyms before integration. No new root.",
+    "sound_check": "canonical base retained; written checks required; no audio validation",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXD-1380a2d2f060",
+    "classification": "productive_construction",
+    "status": "proposal_requires_synonym_review",
+    "human_validated": false,
+    "forms": {
+      "fr": "avec gêne affective",
+      "en": "with emotional embarrassment",
+      "vh": "traerluthis"
+    },
+    "pos": "r",
+    "canonical_ids": [
+      "VX-e219b9dd44adc021"
+    ],
+    "formation": {
+      "base": "traerluth",
+      "suffix": "is",
+      "rule": "adjective + is",
+      "base_pos": "a"
+    },
+    "source_synsets": [],
+    "register_source": "neutral",
+    "register_target": "not_established",
+    "note_fr": "Formation régulière ; vérifier les synonymes déjà enregistrés avant toute intégration. Aucune nouvelle racine.",
+    "note_en": "Regular formation; review existing synonyms before integration. No new root.",
+    "sound_check": "canonical base retained; written checks required; no audio validation",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-5331e5941d6d",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "culpabilité ressentie",
+      "en": "felt guilt",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "tythoem"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "État juridique enregistré ; ne couvre pas automatiquement le sentiment subjectif.",
+    "note_en": "Legal state is recorded, not automatically the subjective feeling.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-297887dc07f3",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "détermination psychologique",
+      "en": "firmness of purpose",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "baefaek"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "La fiche existante décrit la délimitation précise, pas la fermeté d’intention.",
+    "note_en": "The existing entry describes precise determination, not firmness of purpose.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-4c9d438f4a4c",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "mélancolie ordinaire",
+      "en": "thoughtful sadness",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "frolov"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "Ne pas transformer une ancienne définition clinique en simple humeur triste.",
+    "note_en": "Do not turn a clinical sense into ordinary sadness.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-6a10ec9d94c2",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "appréhension anticipatoire",
+      "en": "fearful anticipation",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "boeses"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "La fiche correspond à saisir par l’esprit.",
+    "note_en": "The recorded sense concerns mental apprehension or understanding.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-55ec627e510a",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "stupeur de surprise",
+      "en": "astonishment",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "damdhav"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "La fiche décrit une suspension clinique de l’activité.",
+    "note_en": "The recorded sense is a clinical suspension of activity.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-b4cc457e46b3",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "franchise dans la parole",
+      "en": "frankness",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "skidhak"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "La fiche concerne l’exemption ; examiner maegik et dharoen avant de créer un mot.",
+    "note_en": "The entry concerns exemption; examine maegik and dharoen before coining a word.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-1fb13eed0b26",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "sérénité intérieure",
+      "en": "inner serenity",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "haeloem"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "État du ciel enregistré ; saerveth est un candidat affectif séparé.",
+    "note_en": "The sky sense is recorded; saerveth is a separate emotional candidate.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-5dcc8320d299",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "bosser au sens travailler",
+      "en": "work at a job",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "vagovar"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "Le verbe existant est maritime ; ne pas inventer une valence professionnelle.",
+    "note_en": "The recorded verb is maritime; do not invent a work-related valency.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-150153dd5d5d",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "boulot au sens emploi",
+      "en": "job",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "grarhaek"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "Le nom existant décrit une personne rondelette ; examiner therval.",
+    "note_en": "The recorded noun describes a stout person; examine therval.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-e338824f3fbb",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "piger au sens comprendre",
+      "en": "get the meaning",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "fedysar"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "La fiche existante est saisir physiquement ; sendraerar est distinct.",
+    "note_en": "The existing sense is physical grasping; sendraerar is distinct.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-c847d1fd8811",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "bouffer au sens manger",
+      "en": "eat informally",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "vynalar"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "La fiche existante concerne le volume d’un tissu ; maelvelar est distinct.",
+    "note_en": "The entry concerns billowing fabric; maelvelar is distinct.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-4d26f713aa58",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "gueuler au sens protester",
+      "en": "rant angrily",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "Ne pas déduire protester de tout verbe signifiant pousser un cri.",
+    "note_en": "Do not infer angry protest from every verb meaning cry out.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-a5739ce28236",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "râler au sens se plaindre",
+      "en": "grumble",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "rydhovar"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "Le verbe décrit un râle respiratoire ; examiner gilav et sa famille.",
+    "note_en": "The verb describes a respiratory rattle; examine gilav and its family.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-5c479aca890a",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "hurler de colère, humain",
+      "en": "howl in anger",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "brundinar"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "Le sens enregistré vise loups et chiens ; séparer le cri humain.",
+    "note_en": "The recorded sense concerns wolves and dogs; separate human cries.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-3f8beac53316",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "frisson émotionnel",
+      "en": "emotional shiver",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "hisov"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "La fiche mentionne froid ou fièvre ; l’émotion demande une analyse séparée.",
+    "note_en": "The entry specifies cold or fever; emotion requires separate analysis.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-7adb43d007bf",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "timbre sombre",
+      "en": "dark timbre",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "thyral"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "Métaphore sonore à définir ; ne pas la confondre avec une fréquence basse.",
+    "note_en": "Define the sound metaphor; do not confuse it with low frequency.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-654a53443c10",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "son grave",
+      "en": "low-pitched sound",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "gampadhyk"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "La fiche signifie sérieux dans ses conséquences, pas hauteur sonore.",
+    "note_en": "The entry concerns serious consequences, not pitch.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-3e45b878667a",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "son aigu",
+      "en": "high-pitched sound",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "krarsor"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "Aspect pointu enregistré ; ne pas attribuer une fréquence par homonymie.",
+    "note_en": "A pointed shape is recorded; do not infer pitch from homonymy.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-8e318db174f5",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "sourd au sens étouffé",
+      "en": "muffled sound",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [
+      "baekaem"
+    ],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "La fiche concerne l’audition d’une personne ; ne pas l’appliquer automatiquement à un son.",
+    "note_en": "The entry concerns a person’s hearing; do not automatically apply it to sound.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  },
+  {
+    "id": "LXS-532a8eef2e32",
+    "classification": "additional_sense",
+    "status": "unresolved_sense",
+    "human_validated": false,
+    "forms": {
+      "fr": "smitten, attirance amoureuse",
+      "en": "smitten",
+      "vh": null
+    },
+    "pos": "sense",
+    "canonical_ids": [],
+    "blocked_equivalents": [],
+    "source_synsets": [],
+    "register_source": "contextual",
+    "register_target": null,
+    "note_fr": "Ne pas déduire une perte de raison clinique ni un consentement.",
+    "note_en": "Do not infer clinical loss of reason or consent.",
+    "sound_check": "no form proposed",
+    "examples": {},
+    "references": [
+      "BASELINE"
+    ]
+  }
+]

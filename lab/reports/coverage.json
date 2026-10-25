@@ -1,0 +1,50 @@
+{
+  "baseline_commit": "02ad25ebb16e92a5897a54903e1f6a157c2dcbb9",
+  "counting": "Source records and normalized strings are distinct. Exact lemma/POS matches are candidates, not verified translations. French source has no definitions; no automatic sense coverage is asserted.",
+  "classification_codes": {
+    "sense_review": "Existing form/POS candidate; sense confirmation required.",
+    "unresolved": "No exact form/POS match; examine synonyms, constructions and derivation before proposing a root."
+  },
+  "sources": {
+    "fr": {
+      "source_lemma_records": 159271,
+      "unique_normalized_lemmas": 144646,
+      "unique_source_form_ids": 976570,
+      "lemma_pos_matches_requiring_sense_review": 51578,
+      "unresolved_records": 107693,
+      "source_categories": {
+        "Adjectif qualificatif": 36523,
+        "Adverbe": 4157,
+        "Nom commun": 102238,
+        "Préposition": 258,
+        "Pronom": 121,
+        "Déterminant": 57,
+        "Conjonction": 179,
+        "Nombre": 198,
+        "Interjection": 422,
+        "": 356,
+        "Verbe": 14762
+      },
+      "automatic_new_vaeltharyn_words": 0
+    },
+    "en": {
+      "edition": "2025 core",
+      "source_lexical_entries": 135969,
+      "unique_normalized_lemmas": 127300,
+      "source_senses": 185129,
+      "source_synsets": 107519,
+      "source_relations": 355064,
+      "lemma_pos_matches_requiring_sense_review": 21184,
+      "sense_candidates_on_matched_entries": 47083,
+      "unresolved_entries": 114785,
+      "categories": {
+        "n": 98220,
+        "r": 4489,
+        "a": 21643,
+        "v": 11617
+      },
+      "automatic_new_vaeltharyn_words": 0
+    }
+  },
+  "canonical_source_modified": false
+}
